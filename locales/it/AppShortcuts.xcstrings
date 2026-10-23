@@ -1,0 +1,380 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "Add a task to ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Add a task to ${applicationName}"
+            ]
+          }
+        },
+        "it": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Aggiungi un'attività a ${applicationName}"
+            ]
+          }
+        }
+      }
+    },
+    "Complete a task in ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Complete a task in ${applicationName}"
+            ]
+          }
+        },
+        "it": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Completa un'attività in ${applicationName}"
+            ]
+          }
+        }
+      }
+    },
+    "Create a task in ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Create a task in ${applicationName}"
+            ]
+          }
+        },
+        "it": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Crea un'attività in ${applicationName}"
+            ]
+          }
+        }
+      }
+    },
+    "Finish ${applicationName} focus": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Finish ${applicationName} focus"
+            ]
+          }
+        },
+        "it": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Termina la concentrazione di ${applicationName}"
+            ]
+          }
+        }
+      }
+    },
+    "Finish focus in ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Finish focus in ${applicationName}"
+            ]
+          }
+        },
+        "it": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Termina la concentrazione in ${applicationName}"
+            ]
+          }
+        }
+      }
+    },
+    "Launch ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Launch ${applicationName}"
+            ]
+          }
+        },
+        "it": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Avvia ${applicationName}"
+            ]
+          }
+        }
+      }
+    },
+    "Mark a task done in ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Mark a task done in ${applicationName}"
+            ]
+          }
+        },
+        "it": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Segna un'attività come completata in ${applicationName}"
+            ]
+          }
+        }
+      }
+    },
+    "Open ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Open ${applicationName}"
+            ]
+          }
+        },
+        "it": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Apri ${applicationName}"
+            ]
+          }
+        }
+      }
+    },
+    "Open ${applicationName} now": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Open ${applicationName} now"
+            ]
+          }
+        },
+        "it": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Apri ${applicationName} ora"
+            ]
+          }
+        }
+      }
+    },
+    "Pause ${applicationName} focus": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Pause ${applicationName} focus"
+            ]
+          }
+        },
+        "it": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Metti in pausa la concentrazione di ${applicationName}"
+            ]
+          }
+        }
+      }
+    },
+    "Pause focus in ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Pause focus in ${applicationName}"
+            ]
+          }
+        },
+        "it": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Metti in pausa la concentrazione in ${applicationName}"
+            ]
+          }
+        }
+      }
+    },
+    "Resume ${applicationName} focus": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Resume ${applicationName} focus"
+            ]
+          }
+        },
+        "it": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Riprendi la concentrazione di ${applicationName}"
+            ]
+          }
+        }
+      }
+    },
+    "Resume focus in ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Resume focus in ${applicationName}"
+            ]
+          }
+        },
+        "it": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Riprendi la concentrazione in ${applicationName}"
+            ]
+          }
+        }
+      }
+    },
+    "Run a routine in ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Run a routine in ${applicationName}"
+            ]
+          }
+        },
+        "it": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Esegui una routine in ${applicationName}"
+            ]
+          }
+        }
+      }
+    },
+    "Start a focus session in ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Start a focus session in ${applicationName}"
+            ]
+          }
+        },
+        "it": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Avvia una sessione di concentrazione in ${applicationName}"
+            ]
+          }
+        }
+      }
+    },
+    "Start a routine in ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Start a routine in ${applicationName}"
+            ]
+          }
+        },
+        "it": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Avvia una routine in ${applicationName}"
+            ]
+          }
+        }
+      }
+    },
+    "Start focus in ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Start focus in ${applicationName}"
+            ]
+          }
+        },
+        "it": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Avvia la concentrazione in ${applicationName}"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "version": "1.1"
+}

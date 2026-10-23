@@ -1,0 +1,380 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "Add a task to ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Add a task to ${applicationName}"
+            ]
+          }
+        },
+        "ko": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "${applicationName}에 할 일 추가"
+            ]
+          }
+        }
+      }
+    },
+    "Complete a task in ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Complete a task in ${applicationName}"
+            ]
+          }
+        },
+        "ko": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "${applicationName}에서 할 일 완료"
+            ]
+          }
+        }
+      }
+    },
+    "Create a task in ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Create a task in ${applicationName}"
+            ]
+          }
+        },
+        "ko": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "${applicationName}에서 할 일 만들기"
+            ]
+          }
+        }
+      }
+    },
+    "Finish ${applicationName} focus": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Finish ${applicationName} focus"
+            ]
+          }
+        },
+        "ko": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "${applicationName} 집중 종료"
+            ]
+          }
+        }
+      }
+    },
+    "Finish focus in ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Finish focus in ${applicationName}"
+            ]
+          }
+        },
+        "ko": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "${applicationName}에서 집중 마침"
+            ]
+          }
+        }
+      }
+    },
+    "Launch ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Launch ${applicationName}"
+            ]
+          }
+        },
+        "ko": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "${applicationName} 실행"
+            ]
+          }
+        }
+      }
+    },
+    "Mark a task done in ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Mark a task done in ${applicationName}"
+            ]
+          }
+        },
+        "ko": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "${applicationName}에서 할 일 완료로 표시"
+            ]
+          }
+        }
+      }
+    },
+    "Open ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Open ${applicationName}"
+            ]
+          }
+        },
+        "ko": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "${applicationName} 열기"
+            ]
+          }
+        }
+      }
+    },
+    "Open ${applicationName} now": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Open ${applicationName} now"
+            ]
+          }
+        },
+        "ko": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "지금 ${applicationName} 열기"
+            ]
+          }
+        }
+      }
+    },
+    "Pause ${applicationName} focus": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Pause ${applicationName} focus"
+            ]
+          }
+        },
+        "ko": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "${applicationName} 집중 일시 정지"
+            ]
+          }
+        }
+      }
+    },
+    "Pause focus in ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Pause focus in ${applicationName}"
+            ]
+          }
+        },
+        "ko": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "${applicationName}에서 집중 일시 정지"
+            ]
+          }
+        }
+      }
+    },
+    "Resume ${applicationName} focus": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Resume ${applicationName} focus"
+            ]
+          }
+        },
+        "ko": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "${applicationName} 집중 재개"
+            ]
+          }
+        }
+      }
+    },
+    "Resume focus in ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Resume focus in ${applicationName}"
+            ]
+          }
+        },
+        "ko": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "${applicationName}에서 집중 재개"
+            ]
+          }
+        }
+      }
+    },
+    "Run a routine in ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Run a routine in ${applicationName}"
+            ]
+          }
+        },
+        "ko": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "${applicationName}에서 루틴 실행"
+            ]
+          }
+        }
+      }
+    },
+    "Start a focus session in ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Start a focus session in ${applicationName}"
+            ]
+          }
+        },
+        "ko": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "${applicationName}에서 집중 세션 시작"
+            ]
+          }
+        }
+      }
+    },
+    "Start a routine in ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Start a routine in ${applicationName}"
+            ]
+          }
+        },
+        "ko": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "${applicationName}에서 루틴 시작"
+            ]
+          }
+        }
+      }
+    },
+    "Start focus in ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Start focus in ${applicationName}"
+            ]
+          }
+        },
+        "ko": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "${applicationName}에서 집중 시작"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "version": "1.1"
+}

@@ -1,0 +1,41 @@
+name: Validate translation changes
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-public-catalogs:
+    name: validate-public-catalogs
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      # Trusted validator source: checked out from the PR's target branch.
+      - name: Checkout trusted base validator
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          ref: ${{ github.event.pull_request.base.sha || github.sha }}
+          path: validation-base
+          persist-credentials: false
+
+      # Treat this tree as untrusted data. Never execute its scripts or Git hooks.
+      - name: Checkout proposed changes (data only)
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          ref: ${{ github.ref }}
+          path: submission
+          persist-credentials: false
+
+      - name: Test trusted validator
+        run: python3 -m unittest discover -s validation-base/tools -p 'test_*.py' -v
+
+      - name: Check submitted catalogs against trusted base
+        run: |
+          python3 validation-base/tools/validate_translations.py \
+            --repo submission \
+            --baseline validation-base/docs/export-baseline.json \
+            --base-tree validation-base

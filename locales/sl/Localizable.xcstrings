@@ -1,0 +1,4704 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "tendoBrainDumpBrainDump": {
+      "comment": "Brain Dump feature. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brain dump"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Izprazni misli"
+          }
+        }
+      }
+    },
+    "tendoBrainDumpInbox": {
+      "comment": "Brain Dump feature. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inbox"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prejeto"
+          }
+        }
+      }
+    },
+    "tendoBrainDumpWaitingVariant": {
+      "comment": "Brain Dump feature. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Waiting"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Čakanje"
+          }
+        }
+      }
+    },
+    "tendoCalendarConnected": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connected"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Povezano"
+          }
+        }
+      }
+    },
+    "tendoCalendarDrinkSomeWater": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Drink some water"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Popij nekaj vode"
+          }
+        }
+      }
+    },
+    "tendoCalendarNotConnected": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not connected"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ni povezano"
+          }
+        }
+      }
+    },
+    "tendoCalendarOpenSystemSettings": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open System Settings"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Odpri sistemske nastavitve"
+          }
+        }
+      }
+    },
+    "tendoCommonAddOneTask": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add one task"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dodaj eno opravilo"
+          }
+        }
+      }
+    },
+    "tendoCommonAppleReminders": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apple Reminders"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apple Opomniki"
+          }
+        }
+      }
+    },
+    "tendoCommonBrainDump": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brain Dump"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Izprazni misli"
+          }
+        }
+      }
+    },
+    "tendoCommonBreak": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Break"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Odmor"
+          }
+        }
+      }
+    },
+    "tendoCommonCalendar": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Calendar"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Koledar"
+          }
+        }
+      }
+    },
+    "tendoCommonCancel": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancel"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prekliči"
+          }
+        }
+      }
+    },
+    "tendoCommonClose": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Close"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zapri"
+          }
+        }
+      }
+    },
+    "tendoCommonCompleted": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Completed"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opravljeno"
+          }
+        }
+      }
+    },
+    "tendoCommonContinue": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continue"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nadaljuj"
+          }
+        }
+      }
+    },
+    "tendoCommonDelete": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Izbriši"
+          }
+        }
+      }
+    },
+    "tendoCommonDeleteTask": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete task"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Izbriši opravilo"
+          }
+        }
+      }
+    },
+    "tendoCommonDetails": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Details"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Podrobnosti"
+          }
+        }
+      }
+    },
+    "tendoCommonDone": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Done"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Končano"
+          }
+        }
+      }
+    },
+    "tendoCommonDueDate": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Due date"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rok"
+          }
+        }
+      }
+    },
+    "tendoCommonDuration": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Duration"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trajanje"
+          }
+        }
+      }
+    },
+    "tendoCommonEdit": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edit"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uredi"
+          }
+        }
+      }
+    },
+    "tendoCommonEnabled": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enabled"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Omogočeno"
+          }
+        }
+      }
+    },
+    "tendoCommonEnergy": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Energy"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Energija"
+          }
+        }
+      }
+    },
+    "tendoCommonExactTime": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exact time"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Točen čas"
+          }
+        }
+      }
+    },
+    "tendoCommonFinish": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Finish"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Končaj"
+          }
+        }
+      }
+    },
+    "tendoCommonFinished": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Finished"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Končano"
+          }
+        }
+      }
+    },
+    "tendoCommonFlexible": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Flexible"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prilagodljivo"
+          }
+        }
+      }
+    },
+    "tendoCommonFocusComplete": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Focus complete"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Osredotočenost končana"
+          }
+        }
+      }
+    },
+    "tendoCommonFocusEnvironment": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Focus Environment"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Okolje za osredotočenost"
+          }
+        }
+      }
+    },
+    "tendoCommonFocusPaused": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Focus paused"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Osredotočenost na premoru"
+          }
+        }
+      }
+    },
+    "tendoCommonFocusTimeRemaining": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Focus time remaining"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preostali čas osredotočenosti"
+          }
+        }
+      }
+    },
+    "tendoCommonFullAccess": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Poln dostop"
+          }
+        }
+      }
+    },
+    "tendoCommonGettingStarted": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Getting started"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prvi koraki"
+          }
+        }
+      }
+    },
+    "tendoCommonGoodAfternoon": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Good afternoon"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dober dan"
+          }
+        }
+      }
+    },
+    "tendoCommonGoodEvening": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Good evening"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dober večer"
+          }
+        }
+      }
+    },
+    "tendoCommonGoodMorning": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Good morning"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dobro jutro"
+          }
+        }
+      }
+    },
+    "tendoCommonGoodNight": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Good night"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lahko noč"
+          }
+        }
+      }
+    },
+    "tendoCommonLater": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Later"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pozneje"
+          }
+        }
+      }
+    },
+    "tendoCommonMore": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "More"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Več"
+          }
+        }
+      }
+    },
+    "tendoCommonNext": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Next"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Naprej"
+          }
+        }
+      }
+    },
+    "tendoCommonNoAccountRequired": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No account required"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Račun ni potreben"
+          }
+        }
+      }
+    },
+    "tendoCommonNone": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "None"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brez"
+          }
+        }
+      }
+    },
+    "tendoCommonOff": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Off"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Izklopljeno"
+          }
+        }
+      }
+    },
+    "tendoCommonOneThing": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "One Thing"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ena stvar"
+          }
+        }
+      }
+    },
+    "tendoCommonOneThingVariant": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "One thing"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ena stvar"
+          }
+        }
+      }
+    },
+    "tendoCommonOptional": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Optional"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Neobvezno"
+          }
+        }
+      }
+    },
+    "tendoCommonPause": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pause"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Premor"
+          }
+        }
+      }
+    },
+    "tendoCommonPauseFocus": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pause focus"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Začasno ustavi osredotočenost"
+          }
+        }
+      }
+    },
+    "tendoCommonPaused": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Paused"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Začasno ustavljeno"
+          }
+        }
+      }
+    },
+    "tendoCommonReady": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ready"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pripravljeno"
+          }
+        }
+      }
+    },
+    "tendoCommonResume": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resume"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nadaljuj"
+          }
+        }
+      }
+    },
+    "tendoCommonResumeFocus": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resume focus"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nadaljuj osredotočenost"
+          }
+        }
+      }
+    },
+    "tendoCommonRoutine": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Routine"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rutina"
+          }
+        }
+      }
+    },
+    "tendoCommonSave": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Shrani"
+          }
+        }
+      }
+    },
+    "tendoCommonScheduled": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scheduled"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Načrtovano"
+          }
+        }
+      }
+    },
+    "tendoCommonSelected": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Selected"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Izbrano"
+          }
+        }
+      }
+    },
+    "tendoCommonStart": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Začni"
+          }
+        }
+      }
+    },
+    "tendoCommonSteps": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Steps"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Koraki"
+          }
+        }
+      }
+    },
+    "tendoCommonStorage": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Storage"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Shramba"
+          }
+        }
+      }
+    },
+    "tendoCommonTask": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Task"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opravilo"
+          }
+        }
+      }
+    },
+    "tendoCommonThisWeek": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This week"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ta teden"
+          }
+        }
+      }
+    },
+    "tendoCommonTinySteps": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tiny Steps"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Majhni koraki"
+          }
+        }
+      }
+    },
+    "tendoCommonWeek": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Week"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Teden"
+          }
+        }
+      }
+    },
+    "tendoFocusCompleteTask": {
+      "comment": "Focus interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Complete task"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opravi opravilo"
+          }
+        }
+      }
+    },
+    "tendoFocusCustomFocus": {
+      "comment": "Focus interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Custom Focus"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Osredotočenost po meri"
+          }
+        }
+      }
+    },
+    "tendoFocusEndFocus": {
+      "comment": "Focus interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "End Focus"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Končaj osredotočenost"
+          }
+        }
+      }
+    },
+    "tendoFocusFinishActionTitle": {
+      "comment": "Focus interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Finish Focus"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Končaj osredotočenost"
+          }
+        }
+      }
+    },
+    "tendoFocusPauseActionTitle": {
+      "comment": "Focus interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pause Focus"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Začasno ustavi osredotočenost"
+          }
+        }
+      }
+    },
+    "tendoFocusResumeActionTitle": {
+      "comment": "Focus interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resume Focus"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nadaljuj osredotočenost"
+          }
+        }
+      }
+    },
+    "tendoFocusStartActionTitle": {
+      "comment": "Focus interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start Focus"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Začni osredotočenost"
+          }
+        }
+      }
+    },
+    "tendoFocusTitle": {
+      "comment": "Focus interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Focus"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Osredotočenost"
+          }
+        }
+      }
+    },
+    "tendoGentleQuietHoursTitle": {
+      "comment": "Reminders interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quiet hours"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Čas brez obvestil"
+          }
+        }
+      }
+    },
+    "tendoGentleScreenTitle": {
+      "comment": "Reminders interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gentle Reminders"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nežni opomniki"
+          }
+        }
+      }
+    },
+    "tendoGentleTime": {
+      "comment": "Reminders interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Time"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Čas"
+          }
+        }
+      }
+    },
+    "tendoGuideAppleWatchTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apple Watch"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apple Watch"
+          }
+        }
+      }
+    },
+    "tendoGuideBrainDumpTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brain Dump"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Izprazni misli"
+          }
+        }
+      }
+    },
+    "tendoGuideExplore": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Explore Tendo"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Razišči Tendo"
+          }
+        }
+      }
+    },
+    "tendoGuideFocusTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Focus"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Osredotočenost"
+          }
+        }
+      }
+    },
+    "tendoGuideHelpfulTip": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Helpful tip"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Koristen nasvet"
+          }
+        }
+      }
+    },
+    "tendoGuideHelpfulTipsTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Helpful Tips"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Koristni nasveti"
+          }
+        }
+      }
+    },
+    "tendoGuideLiveActivitiesTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Live Activities"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dejavnosti v živo"
+          }
+        }
+      }
+    },
+    "tendoGuideNotificationsTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gentle Reminders"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nežni opomniki"
+          }
+        }
+      }
+    },
+    "tendoGuideNowTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Now"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zdaj"
+          }
+        }
+      }
+    },
+    "tendoGuidePersonalizationTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Personalization"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prilagoditev"
+          }
+        }
+      }
+    },
+    "tendoGuideResetTips": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reset Tips"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ponastavi nasvete"
+          }
+        }
+      }
+    },
+    "tendoGuideRoutineFoldersTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Routine folders"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mape rutin"
+          }
+        }
+      }
+    },
+    "tendoGuideRoutinesTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Routines"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rutine"
+          }
+        }
+      }
+    },
+    "tendoGuideShortcutsTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Siri and Shortcuts"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Siri in Bližnjice"
+          }
+        }
+      }
+    },
+    "tendoGuideShowAgain": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Tips Again"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Znova prikaži nasvete"
+          }
+        }
+      }
+    },
+    "tendoGuideShowTips": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Helpful Tips"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prikazuj koristne nasvete"
+          }
+        }
+      }
+    },
+    "tendoGuideTasksTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tasks"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opravila"
+          }
+        }
+      }
+    },
+    "tendoGuideTinyStepsTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tiny Steps"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Majhni koraki"
+          }
+        }
+      }
+    },
+    "tendoGuideTodayTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Today"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Danes"
+          }
+        }
+      }
+    },
+    "tendoGuideWeekTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Week"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Teden"
+          }
+        }
+      }
+    },
+    "tendoGuideWidgetsTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Widgets"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pripomočki"
+          }
+        }
+      }
+    },
+    "tendoIconsGeneral": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "General"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Splošno"
+          }
+        }
+      }
+    },
+    "tendoIconsHealth": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Health"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zdravje"
+          }
+        }
+      }
+    },
+    "tendoIconsHome": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Home"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dom"
+          }
+        }
+      }
+    },
+    "tendoIconsLearning": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Learning"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Učenje"
+          }
+        }
+      }
+    },
+    "tendoIconsLeisure": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Leisure"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prosti čas"
+          }
+        }
+      }
+    },
+    "tendoIconsNature": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nature"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Narava"
+          }
+        }
+      }
+    },
+    "tendoIconsTravel": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Travel"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Potovanja"
+          }
+        }
+      }
+    },
+    "tendoLiveActivityFinishFocus": {
+      "comment": "Focus Live Activity. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Finish focus"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Končaj osredotočenost"
+          }
+        }
+      }
+    },
+    "tendoLiveActivitySession": {
+      "comment": "Focus Live Activity. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Session"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seja"
+          }
+        }
+      }
+    },
+    "tendoLocalizationActiveTaskCount": {
+      "comment": "Pluralized count. Retain named arguments and natural language-specific plural categories.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld active task"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld active tasks"
+                }
+              }
+            }
+          }
+        },
+        "sl": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld aktivno opravilo"
+                }
+              },
+              "two": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld aktivni opravili"
+                }
+              },
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld aktivna opravila"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld aktivnih opravil"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "tendoLocalizationFocusSessionCount": {
+      "comment": "Pluralized count. Retain named arguments and natural language-specific plural categories.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld session"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld sessions"
+                }
+              }
+            }
+          }
+        },
+        "sl": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld seja"
+                }
+              },
+              "two": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld seji"
+                }
+              },
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld seje"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld sej"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "tendoLocalizationFocusedMinuteCount": {
+      "comment": "Pluralized count. Retain named arguments and natural language-specific plural categories.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld focused minute."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld focused minutes."
+                }
+              }
+            }
+          }
+        },
+        "sl": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld minuta osredotočenosti."
+                }
+              },
+              "two": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld minuti osredotočenosti."
+                }
+              },
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld minute osredotočenosti."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld minut osredotočenosti."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "tendoLocalizationRoutineStepCount": {
+      "comment": "Pluralized count. Retain named arguments and natural language-specific plural categories.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld step"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld steps"
+                }
+              }
+            }
+          }
+        },
+        "sl": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld korak"
+                }
+              },
+              "two": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld koraka"
+                }
+              },
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld koraki"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld korakov"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "tendoMomentumHomeVariant": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Home"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dom"
+          }
+        }
+      }
+    },
+    "tendoNavigationNow": {
+      "comment": "Main navigation label. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Now"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zdaj"
+          }
+        }
+      }
+    },
+    "tendoNavigationProgress": {
+      "comment": "Main navigation label. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Progress"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Napredek"
+          }
+        }
+      }
+    },
+    "tendoNavigationRoutines": {
+      "comment": "Main navigation label. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Routines"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rutine"
+          }
+        }
+      }
+    },
+    "tendoNavigationSettings": {
+      "comment": "Main navigation label. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Settings"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nastavitve"
+          }
+        }
+      }
+    },
+    "tendoNavigationTasks": {
+      "comment": "Main navigation label. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tasks"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opravila"
+          }
+        }
+      }
+    },
+    "tendoNavigationToday": {
+      "comment": "Main navigation label. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Today"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Danes"
+          }
+        }
+      }
+    },
+    "tendoNotificationsAllowNotifications": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Allow Notifications"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dovoli obvestila"
+          }
+        }
+      }
+    },
+    "tendoNotificationsNotEnabled": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not enabled"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ni omogočeno"
+          }
+        }
+      }
+    },
+    "tendoNotificationsNotificationSound": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Notification sound"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zvok obvestila"
+          }
+        }
+      }
+    },
+    "tendoNotificationsNotifications": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Notifications"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obvestila"
+          }
+        }
+      }
+    },
+    "tendoNotificationsOpenNotificationSettings": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Notification Settings"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Odpri nastavitve obvestil"
+          }
+        }
+      }
+    },
+    "tendoNotificationsPreview": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preview"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Predogled"
+          }
+        }
+      }
+    },
+    "tendoNotificationsReminderTime": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reminder time"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Čas opomnika"
+          }
+        }
+      }
+    },
+    "tendoNotificationsReminders": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reminders"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opomniki"
+          }
+        }
+      }
+    },
+    "tendoNotificationsSystemDefault": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "System Default"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sistemsko privzeto"
+          }
+        }
+      }
+    },
+    "tendoNotificationsUpcoming": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Upcoming"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prihajajoče"
+          }
+        }
+      }
+    },
+    "tendoNowAddATask": {
+      "comment": "Now screen. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add a task"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dodaj opravilo"
+          }
+        }
+      }
+    },
+    "tendoNowFocusMode": {
+      "comment": "Now screen. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Focus mode"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Način osredotočenosti"
+          }
+        }
+      }
+    },
+    "tendoNowNotNow": {
+      "comment": "Now screen. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not now"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ne zdaj"
+          }
+        }
+      }
+    },
+    "tendoNowWelcomeBack": {
+      "comment": "Now screen. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Welcome back"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dobrodošel nazaj"
+          }
+        }
+      }
+    },
+    "tendoOnboardingReviewToday": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Review today"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preglej današnji dan"
+          }
+        }
+      }
+    },
+    "tendoOnboardingSkip": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skip"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preskoči"
+          }
+        }
+      }
+    },
+    "tendoOnboardingTakeVitamins": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Take vitamins"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vzemi vitamine"
+          }
+        }
+      }
+    },
+    "tendoOnboardingTinyStep": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tiny step"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Majhen korak"
+          }
+        }
+      }
+    },
+    "tendoOnboardingWelcomeBack": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Welcome Back"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dobrodošel nazaj"
+          }
+        }
+      }
+    },
+    "tendoProgressFinished": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "finished"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Končano"
+          }
+        }
+      }
+    },
+    "tendoProgressResetProgress": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reset Progress"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ponastavi napredek"
+          }
+        }
+      }
+    },
+    "tendoProgressResetProgressVariant": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reset progress"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ponastavi napredek"
+          }
+        }
+      }
+    },
+    "tendoProgressYesterday": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yesterday"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Včeraj"
+          }
+        }
+      }
+    },
+    "tendoRoutinesAdd": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dodaj"
+          }
+        }
+      }
+    },
+    "tendoRoutinesAddRoutine": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add Routine"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dodaj rutino"
+          }
+        }
+      }
+    },
+    "tendoRoutinesAddStep": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add Step"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dodaj korak"
+          }
+        }
+      }
+    },
+    "tendoRoutinesCreateFolder": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Create Folder"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ustvari mapo"
+          }
+        }
+      }
+    },
+    "tendoRoutinesDeleteFolder": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete Folder"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Izbriši mapo"
+          }
+        }
+      }
+    },
+    "tendoRoutinesEditFolder": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edit Folder"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uredi mapo"
+          }
+        }
+      }
+    },
+    "tendoRoutinesEditRoutine": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edit Routine"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uredi rutino"
+          }
+        }
+      }
+    },
+    "tendoRoutinesFolder": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Folder"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mapa"
+          }
+        }
+      }
+    },
+    "tendoRoutinesFolders": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Folders"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mape"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconCoffee": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Coffee"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kava"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconEvening": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Evening"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Večer"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconFamily": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Family"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Družina"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconFitness": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fitness"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fitnes"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconFolder": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Folder"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mapa"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconFood": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Food"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hrana"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconHealth": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Health"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zdravje"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconHome": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Home"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dom"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconMorning": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morning"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jutro"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconNature": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nature"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Narava"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconPersonal": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Personal"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Osebno"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconPlanning": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Planning"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Načrtovanje"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconShopping": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Shopping"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nakupovanje"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconSleep": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sleep"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spanje"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconStudy": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Study"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Učenje"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconWork": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Work"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delo"
+          }
+        }
+      }
+    },
+    "tendoRoutinesManageFolders": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manage Folders"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Upravljaj mape"
+          }
+        }
+      }
+    },
+    "tendoRoutinesMove": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Move"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Premakni"
+          }
+        }
+      }
+    },
+    "tendoRoutinesNewFolder": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New Folder"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nova mapa"
+          }
+        }
+      }
+    },
+    "tendoRoutinesNewRoutine": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New Routine"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nova rutina"
+          }
+        }
+      }
+    },
+    "tendoRoutinesStartRoutine": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start routine"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Začni rutino"
+          }
+        }
+      }
+    },
+    "tendoSampleDataBuyGroceries": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buy groceries"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kupi živila"
+          }
+        }
+      }
+    },
+    "tendoSampleDataDrinkSomeWater": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Drink some water"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Popij nekaj vode"
+          }
+        }
+      }
+    },
+    "tendoSampleDataWater": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Water"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Voda"
+          }
+        }
+      }
+    },
+    "tendoSettingsAboutTendo": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "About Tendo"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O aplikaciji Tendo"
+          }
+        }
+      }
+    },
+    "tendoSettingsActive": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Active"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aktivno"
+          }
+        }
+      }
+    },
+    "tendoSettingsAppearance": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Appearance"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Videz"
+          }
+        }
+      }
+    },
+    "tendoSettingsAppleWatchTitle": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apple Watch"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apple Watch"
+          }
+        }
+      }
+    },
+    "tendoSettingsBackupAndRestoreTitle": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Backup & Restore"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Varnostno kopiranje in obnovitev"
+          }
+        }
+      }
+    },
+    "tendoSettingsBackupPassword": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Backup password"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geslo varnostne kopije"
+          }
+        }
+      }
+    },
+    "tendoSettingsBackupVerified": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Backup verified"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Varnostna kopija preverjena"
+          }
+        }
+      }
+    },
+    "tendoSettingsConfirmPassword": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Confirm password"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Potrdi geslo"
+          }
+        }
+      }
+    },
+    "tendoSettingsConnectedNow": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connected now"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zdaj povezano"
+          }
+        }
+      }
+    },
+    "tendoSettingsData": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Data"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Podatki"
+          }
+        }
+      }
+    },
+    "tendoSettingsEncryptBackup": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Encrypt Backup"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Šifriraj varnostno kopijo"
+          }
+        }
+      }
+    },
+    "tendoSettingsExportAllData": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Export All Data"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Izvozi vse podatke"
+          }
+        }
+      }
+    },
+    "tendoSettingsFocusSessions": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Focus sessions"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seje osredotočenosti"
+          }
+        }
+      }
+    },
+    "tendoSettingsFocusSettings": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Focus Settings"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nastavitve osredotočenosti"
+          }
+        }
+      }
+    },
+    "tendoSettingsFocusSettingsTitle": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Focus Settings"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nastavitve osredotočenosti"
+          }
+        }
+      }
+    },
+    "tendoSettingsGetInvolved": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Get involved"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sodeluj"
+          }
+        }
+      }
+    },
+    "tendoSettingsInactive": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inactive"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Neaktivno"
+          }
+        }
+      }
+    },
+    "tendoSettingsLists": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lists"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seznami"
+          }
+        }
+      }
+    },
+    "tendoSettingsNoAdvertisingSdk": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No advertising SDK"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brez oglaševalskih orodij"
+          }
+        }
+      }
+    },
+    "tendoSettingsNoAnalyticsSdk": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No analytics SDK"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brez orodij za analitiko"
+          }
+        }
+      }
+    },
+    "tendoSettingsOpenSettings": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Settings"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Odpri nastavitve"
+          }
+        }
+      }
+    },
+    "tendoSettingsPersonalization": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Personalization"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prilagoditev"
+          }
+        }
+      }
+    },
+    "tendoSettingsPrivacy": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Privacy"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zasebnost"
+          }
+        }
+      }
+    },
+    "tendoSettingsQuickTips": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quick Tips"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hitri nasveti"
+          }
+        }
+      }
+    },
+    "tendoSettingsReplaceCurrentData": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Replace Current Data"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zamenjaj trenutne podatke"
+          }
+        }
+      }
+    },
+    "tendoSettingsReplayOnboardingTitle": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Replay Onboarding"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ponovi uvod"
+          }
+        }
+      }
+    },
+    "tendoSettingsRestoreBackup": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restore Backup"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obnovi varnostno kopijo"
+          }
+        }
+      }
+    },
+    "tendoSettingsRestoreThisBackup": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restore This Backup"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obnovi to varnostno kopijo"
+          }
+        }
+      }
+    },
+    "tendoSettingsSiriAndShortcutsTitle": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Siri & Shortcuts"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Siri in Bližnjice"
+          }
+        }
+      }
+    },
+    "tendoSettingsStatus": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Status"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stanje"
+          }
+        }
+      }
+    },
+    "tendoSettingsTheme": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Theme"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tema"
+          }
+        }
+      }
+    },
+    "tendoSettingsThemeDark": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dark"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Temno"
+          }
+        }
+      }
+    },
+    "tendoSettingsThemeLight": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Light"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Svetlo"
+          }
+        }
+      }
+    },
+    "tendoSettingsThemeSystem": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "System"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sistem"
+          }
+        }
+      }
+    },
+    "tendoSettingsTomorrow": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tomorrow"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jutri"
+          }
+        }
+      }
+    },
+    "tendoSettingsVerify": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verify"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preveri"
+          }
+        }
+      }
+    },
+    "tendoSettingsVerifyBackup": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verify Backup"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preveri varnostno kopijo"
+          }
+        }
+      }
+    },
+    "tendoSettingsVersion": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Version"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Različica"
+          }
+        }
+      }
+    },
+    "tendoSettingsWidgets": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Widgets"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pripomočki"
+          }
+        }
+      }
+    },
+    "tendoSettingsYesterday": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yesterday"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Včeraj"
+          }
+        }
+      }
+    },
+    "tendoShortcutsCompleteTaskTitle": {
+      "comment": "Siri and Shortcuts. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Complete Task"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opravi opravilo"
+          }
+        }
+      }
+    },
+    "tendoShortcutsDueDate": {
+      "comment": "Siri and Shortcuts. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Due Date"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rok"
+          }
+        }
+      }
+    },
+    "tendoShortcutsMinutes": {
+      "comment": "Siri and Shortcuts. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Minutes"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Minute"
+          }
+        }
+      }
+    },
+    "tendoShortcutsStartRoutineTitle": {
+      "comment": "Siri and Shortcuts. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start Routine"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Začni rutino"
+          }
+        }
+      }
+    },
+    "tendoShortcutsTitle": {
+      "comment": "Siri and Shortcuts. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Title"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Naslov"
+          }
+        }
+      }
+    },
+    "tendoTasksActive": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Active"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aktivno"
+          }
+        }
+      }
+    },
+    "tendoTasksAdd": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dodaj"
+          }
+        }
+      }
+    },
+    "tendoTasksAddTask": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add Task"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dodaj opravilo"
+          }
+        }
+      }
+    },
+    "tendoTasksAvailable": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Available"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Na voljo"
+          }
+        }
+      }
+    },
+    "tendoTasksDay": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Day"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dan"
+          }
+        }
+      }
+    },
+    "tendoTasksEditTask": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edit Task"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uredi opravilo"
+          }
+        }
+      }
+    },
+    "tendoTasksHigh": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "High"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Visoka"
+          }
+        }
+      }
+    },
+    "tendoTasksMarkComplete": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mark complete"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Označi kot opravljeno"
+          }
+        }
+      }
+    },
+    "tendoTasksMarkIncomplete": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mark incomplete"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Označi kot neopravljeno"
+          }
+        }
+      }
+    },
+    "tendoTasksMedium": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Medium"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Srednja"
+          }
+        }
+      }
+    },
+    "tendoTasksMove": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Move"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Premakni"
+          }
+        }
+      }
+    },
+    "tendoTasksNewTask": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New Task"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Novo opravilo"
+          }
+        }
+      }
+    },
+    "tendoTasksNotes": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Notes"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opombe"
+          }
+        }
+      }
+    },
+    "tendoTasksNothingWaiting": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nothing waiting"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nič ne čaka"
+          }
+        }
+      }
+    },
+    "tendoTasksReminder": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reminder"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opomnik"
+          }
+        }
+      }
+    },
+    "tendoTasksTomorrow": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tomorrow"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jutri"
+          }
+        }
+      }
+    },
+    "tendoTodayAfternoon": {
+      "comment": "Today screen. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Afternoon"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Popoldne"
+          }
+        }
+      }
+    },
+    "tendoTodayDueToday": {
+      "comment": "Today screen. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Due today"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rok je danes"
+          }
+        }
+      }
+    },
+    "tendoTodayEvening": {
+      "comment": "Today screen. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Evening"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Večer"
+          }
+        }
+      }
+    },
+    "tendoTodayLow": {
+      "comment": "Today screen. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Low"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nizka"
+          }
+        }
+      }
+    },
+    "tendoTodayMorning": {
+      "comment": "Today screen. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morning"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jutro"
+          }
+        }
+      }
+    },
+    "tendoTodayNow": {
+      "comment": "Today screen. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Now · %1$(text)@"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zdaj · %1$(text)@"
+          }
+        }
+      }
+    },
+    "tendoTodayOpen": {
+      "comment": "Today screen. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Odpri"
+          }
+        }
+      }
+    },
+    "tendoTodayOverdue": {
+      "comment": "Today screen. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Overdue"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pretečeno"
+          }
+        }
+      }
+    },
+    "tendoTodayTime": {
+      "comment": "Today screen. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Time"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Čas"
+          }
+        }
+      }
+    },
+    "tendoTodayToday": {
+      "comment": "Today screen. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Today · %1$(text)@"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Danes · %1$(text)@"
+          }
+        }
+      }
+    },
+    "tendoTodayUnscheduled": {
+      "comment": "Today screen. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unscheduled"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nenačrtovano"
+          }
+        }
+      }
+    },
+    "tendoWatchFocusOptions": {
+      "comment": "Apple Watch interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Focus options"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Možnosti osredotočenosti"
+          }
+        }
+      }
+    },
+    "tendoWatchRoutineComplete": {
+      "comment": "Apple Watch interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Routine complete"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rutina opravljena"
+          }
+        }
+      }
+    },
+    "tendoWhatsNew131GuideTitle": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Explore Tendo"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Razišči Tendo"
+          }
+        }
+      }
+    },
+    "tendoWhatsNew131TipsTitle": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Helpful Tips"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Koristni nasveti"
+          }
+        }
+      }
+    },
+    "tendoWhatsNewResetProgressTitle": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reset Progress"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ponastavi napredek"
+          }
+        }
+      }
+    },
+    "tendoWhatsNewRoutineFoldersTitle": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Routine folders"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mape rutin"
+          }
+        }
+      }
+    },
+    "tendoWhatsNewSiriAndShortcutsTitle": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Siri & Shortcuts"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Siri in Bližnjice"
+          }
+        }
+      }
+    },
+    "tendoWhatsNewTitle": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "What's New"
+          }
+        },
+        "sl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Novosti"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.1"
+}

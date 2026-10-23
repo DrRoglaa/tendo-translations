@@ -1,0 +1,380 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "Add a task to ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Add a task to ${applicationName}"
+            ]
+          }
+        },
+        "sl": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Dodaj opravilo v ${applicationName}"
+            ]
+          }
+        }
+      }
+    },
+    "Complete a task in ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Complete a task in ${applicationName}"
+            ]
+          }
+        },
+        "sl": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Dokončaj opravilo v ${applicationName}"
+            ]
+          }
+        }
+      }
+    },
+    "Create a task in ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Create a task in ${applicationName}"
+            ]
+          }
+        },
+        "sl": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Ustvari opravilo v ${applicationName}"
+            ]
+          }
+        }
+      }
+    },
+    "Finish ${applicationName} focus": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Finish ${applicationName} focus"
+            ]
+          }
+        },
+        "sl": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Končaj osredotočenost v ${applicationName}"
+            ]
+          }
+        }
+      }
+    },
+    "Finish focus in ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Finish focus in ${applicationName}"
+            ]
+          }
+        },
+        "sl": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Končaj osredotočenost v ${applicationName}"
+            ]
+          }
+        }
+      }
+    },
+    "Launch ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Launch ${applicationName}"
+            ]
+          }
+        },
+        "sl": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Zaženi ${applicationName}"
+            ]
+          }
+        }
+      }
+    },
+    "Mark a task done in ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Mark a task done in ${applicationName}"
+            ]
+          }
+        },
+        "sl": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Označi opravilo kot opravljeno v ${applicationName}"
+            ]
+          }
+        }
+      }
+    },
+    "Open ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Open ${applicationName}"
+            ]
+          }
+        },
+        "sl": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Odpri ${applicationName}"
+            ]
+          }
+        }
+      }
+    },
+    "Open ${applicationName} now": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Open ${applicationName} now"
+            ]
+          }
+        },
+        "sl": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Zdaj odpri ${applicationName}"
+            ]
+          }
+        }
+      }
+    },
+    "Pause ${applicationName} focus": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Pause ${applicationName} focus"
+            ]
+          }
+        },
+        "sl": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Začasno ustavi osredotočenost v ${applicationName}"
+            ]
+          }
+        }
+      }
+    },
+    "Pause focus in ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Pause focus in ${applicationName}"
+            ]
+          }
+        },
+        "sl": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Začasno ustavi osredotočenost v ${applicationName}"
+            ]
+          }
+        }
+      }
+    },
+    "Resume ${applicationName} focus": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Resume ${applicationName} focus"
+            ]
+          }
+        },
+        "sl": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Nadaljuj osredotočenost v ${applicationName}"
+            ]
+          }
+        }
+      }
+    },
+    "Resume focus in ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Resume focus in ${applicationName}"
+            ]
+          }
+        },
+        "sl": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Nadaljuj osredotočenost v ${applicationName}"
+            ]
+          }
+        }
+      }
+    },
+    "Run a routine in ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Run a routine in ${applicationName}"
+            ]
+          }
+        },
+        "sl": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Zaženi rutino v ${applicationName}"
+            ]
+          }
+        }
+      }
+    },
+    "Start a focus session in ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Start a focus session in ${applicationName}"
+            ]
+          }
+        },
+        "sl": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Začni sejo osredotočenosti v ${applicationName}"
+            ]
+          }
+        }
+      }
+    },
+    "Start a routine in ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Start a routine in ${applicationName}"
+            ]
+          }
+        },
+        "sl": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Začni rutino v ${applicationName}"
+            ]
+          }
+        }
+      }
+    },
+    "Start focus in ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Start focus in ${applicationName}"
+            ]
+          }
+        },
+        "sl": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Začni osredotočenost v ${applicationName}"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "version": "1.1"
+}

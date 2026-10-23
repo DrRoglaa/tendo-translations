@@ -1,0 +1,17 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+*.log
+*.zip
+*.tendobackup
+*.xcodeproj/
+*.xcworkspace/
+*.xcuserstate
+.DerivedData/
+build/
+private/
+secrets/

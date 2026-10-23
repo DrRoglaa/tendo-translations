@@ -1,0 +1,380 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "Add a task to ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Add a task to ${applicationName}"
+            ]
+          }
+        },
+        "hu": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Adj hozzá feladatot a ${applicationName} alkalmazáshoz"
+            ]
+          }
+        }
+      }
+    },
+    "Complete a task in ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Complete a task in ${applicationName}"
+            ]
+          }
+        },
+        "hu": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Fejezz be egy feladatot a ${applicationName} alkalmazásban"
+            ]
+          }
+        }
+      }
+    },
+    "Create a task in ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Create a task in ${applicationName}"
+            ]
+          }
+        },
+        "hu": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Hozz létre egy feladatot a ${applicationName} alkalmazásban"
+            ]
+          }
+        }
+      }
+    },
+    "Finish ${applicationName} focus": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Finish ${applicationName} focus"
+            ]
+          }
+        },
+        "hu": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Fejezd be a ${applicationName} fókuszát"
+            ]
+          }
+        }
+      }
+    },
+    "Finish focus in ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Finish focus in ${applicationName}"
+            ]
+          }
+        },
+        "hu": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Fejezd be a fókuszt a ${applicationName} alkalmazásban"
+            ]
+          }
+        }
+      }
+    },
+    "Launch ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Launch ${applicationName}"
+            ]
+          }
+        },
+        "hu": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Indítsd el a ${applicationName} alkalmazást"
+            ]
+          }
+        }
+      }
+    },
+    "Mark a task done in ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Mark a task done in ${applicationName}"
+            ]
+          }
+        },
+        "hu": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Jelölj késznek egy feladatot a ${applicationName} alkalmazásban"
+            ]
+          }
+        }
+      }
+    },
+    "Open ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Open ${applicationName}"
+            ]
+          }
+        },
+        "hu": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Nyisd meg a ${applicationName} alkalmazást"
+            ]
+          }
+        }
+      }
+    },
+    "Open ${applicationName} now": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Open ${applicationName} now"
+            ]
+          }
+        },
+        "hu": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Nyisd meg most a ${applicationName} alkalmazást"
+            ]
+          }
+        }
+      }
+    },
+    "Pause ${applicationName} focus": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Pause ${applicationName} focus"
+            ]
+          }
+        },
+        "hu": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Szüneteltesd a ${applicationName} fókuszát"
+            ]
+          }
+        }
+      }
+    },
+    "Pause focus in ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Pause focus in ${applicationName}"
+            ]
+          }
+        },
+        "hu": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Szüneteltesd a fókuszt a ${applicationName} alkalmazásban"
+            ]
+          }
+        }
+      }
+    },
+    "Resume ${applicationName} focus": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Resume ${applicationName} focus"
+            ]
+          }
+        },
+        "hu": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Folytasd a ${applicationName} fókuszát"
+            ]
+          }
+        }
+      }
+    },
+    "Resume focus in ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Resume focus in ${applicationName}"
+            ]
+          }
+        },
+        "hu": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Folytasd a fókuszt a ${applicationName} alkalmazásban"
+            ]
+          }
+        }
+      }
+    },
+    "Run a routine in ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Run a routine in ${applicationName}"
+            ]
+          }
+        },
+        "hu": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Futtass egy rutint a ${applicationName} alkalmazásban"
+            ]
+          }
+        }
+      }
+    },
+    "Start a focus session in ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Start a focus session in ${applicationName}"
+            ]
+          }
+        },
+        "hu": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Indíts fókuszidőszakot a ${applicationName} alkalmazásban"
+            ]
+          }
+        }
+      }
+    },
+    "Start a routine in ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Start a routine in ${applicationName}"
+            ]
+          }
+        },
+        "hu": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Indíts rutint a ${applicationName} alkalmazásban"
+            ]
+          }
+        }
+      }
+    },
+    "Start focus in ${applicationName}": {
+      "comment": "Spoken App Shortcut phrase. Keep ${applicationName} exactly as written.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Start focus in ${applicationName}"
+            ]
+          }
+        },
+        "hu": {
+          "stringSet": {
+            "state": "translated",
+            "values": [
+              "Indíts fókuszt a ${applicationName} alkalmazásban"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "version": "1.1"
+}

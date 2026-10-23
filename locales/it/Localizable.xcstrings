@@ -1,0 +1,4656 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "tendoBrainDumpBrainDump": {
+      "comment": "Brain Dump feature. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brain dump"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Svuota la mente"
+          }
+        }
+      }
+    },
+    "tendoBrainDumpInbox": {
+      "comment": "Brain Dump feature. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inbox"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In arrivo"
+          }
+        }
+      }
+    },
+    "tendoBrainDumpWaitingVariant": {
+      "comment": "Brain Dump feature. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Waiting"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In attesa"
+          }
+        }
+      }
+    },
+    "tendoCalendarConnected": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connected"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connesso"
+          }
+        }
+      }
+    },
+    "tendoCalendarDrinkSomeWater": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Drink some water"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bevi un po’ d’acqua"
+          }
+        }
+      }
+    },
+    "tendoCalendarNotConnected": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not connected"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Non connesso"
+          }
+        }
+      }
+    },
+    "tendoCalendarOpenSystemSettings": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open System Settings"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apri Impostazioni di sistema"
+          }
+        }
+      }
+    },
+    "tendoCommonAddOneTask": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add one task"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aggiungi un'attività"
+          }
+        }
+      }
+    },
+    "tendoCommonAppleReminders": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apple Reminders"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Promemoria Apple"
+          }
+        }
+      }
+    },
+    "tendoCommonBrainDump": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brain Dump"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Svuota la mente"
+          }
+        }
+      }
+    },
+    "tendoCommonBreak": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Break"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pausa"
+          }
+        }
+      }
+    },
+    "tendoCommonCalendar": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Calendar"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Calendario"
+          }
+        }
+      }
+    },
+    "tendoCommonCancel": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancel"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Annulla"
+          }
+        }
+      }
+    },
+    "tendoCommonClose": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Close"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chiudi"
+          }
+        }
+      }
+    },
+    "tendoCommonCompleted": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Completed"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Completato"
+          }
+        }
+      }
+    },
+    "tendoCommonContinue": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continue"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continua"
+          }
+        }
+      }
+    },
+    "tendoCommonDelete": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elimina"
+          }
+        }
+      }
+    },
+    "tendoCommonDeleteTask": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete task"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elimina attività"
+          }
+        }
+      }
+    },
+    "tendoCommonDetails": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Details"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dettagli"
+          }
+        }
+      }
+    },
+    "tendoCommonDone": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Done"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fatto"
+          }
+        }
+      }
+    },
+    "tendoCommonDueDate": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Due date"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scadenza"
+          }
+        }
+      }
+    },
+    "tendoCommonDuration": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Duration"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Durata"
+          }
+        }
+      }
+    },
+    "tendoCommonEdit": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edit"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modifica"
+          }
+        }
+      }
+    },
+    "tendoCommonEnabled": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enabled"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abilitato"
+          }
+        }
+      }
+    },
+    "tendoCommonEnergy": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Energy"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Energia"
+          }
+        }
+      }
+    },
+    "tendoCommonExactTime": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exact time"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Orario preciso"
+          }
+        }
+      }
+    },
+    "tendoCommonFinish": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Finish"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Termina"
+          }
+        }
+      }
+    },
+    "tendoCommonFinished": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Finished"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Terminato"
+          }
+        }
+      }
+    },
+    "tendoCommonFlexible": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Flexible"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Flessibile"
+          }
+        }
+      }
+    },
+    "tendoCommonFocusComplete": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Focus complete"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Concentrazione completata"
+          }
+        }
+      }
+    },
+    "tendoCommonFocusEnvironment": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Focus Environment"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ambiente di concentrazione"
+          }
+        }
+      }
+    },
+    "tendoCommonFocusPaused": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Focus paused"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Concentrazione in pausa"
+          }
+        }
+      }
+    },
+    "tendoCommonFocusTimeRemaining": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Focus time remaining"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tempo di concentrazione rimanente"
+          }
+        }
+      }
+    },
+    "tendoCommonFullAccess": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Accesso completo"
+          }
+        }
+      }
+    },
+    "tendoCommonGettingStarted": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Getting started"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Per iniziare"
+          }
+        }
+      }
+    },
+    "tendoCommonGoodAfternoon": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Good afternoon"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buon pomeriggio"
+          }
+        }
+      }
+    },
+    "tendoCommonGoodEvening": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Good evening"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buonasera"
+          }
+        }
+      }
+    },
+    "tendoCommonGoodMorning": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Good morning"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buongiorno"
+          }
+        }
+      }
+    },
+    "tendoCommonGoodNight": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Good night"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buonanotte"
+          }
+        }
+      }
+    },
+    "tendoCommonLater": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Later"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Più tardi"
+          }
+        }
+      }
+    },
+    "tendoCommonMore": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "More"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Altro"
+          }
+        }
+      }
+    },
+    "tendoCommonNext": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Next"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avanti"
+          }
+        }
+      }
+    },
+    "tendoCommonNoAccountRequired": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No account required"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nessun account richiesto"
+          }
+        }
+      }
+    },
+    "tendoCommonNone": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "None"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nessuno"
+          }
+        }
+      }
+    },
+    "tendoCommonOff": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Off"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Disattivo"
+          }
+        }
+      }
+    },
+    "tendoCommonOneThing": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "One Thing"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Una cosa"
+          }
+        }
+      }
+    },
+    "tendoCommonOneThingVariant": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "One thing"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Una cosa"
+          }
+        }
+      }
+    },
+    "tendoCommonOptional": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Optional"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Facoltativo"
+          }
+        }
+      }
+    },
+    "tendoCommonPause": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pause"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pausa"
+          }
+        }
+      }
+    },
+    "tendoCommonPauseFocus": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pause focus"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Metti in pausa"
+          }
+        }
+      }
+    },
+    "tendoCommonPaused": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Paused"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In pausa"
+          }
+        }
+      }
+    },
+    "tendoCommonReady": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ready"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pronto"
+          }
+        }
+      }
+    },
+    "tendoCommonResume": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resume"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Riprendi"
+          }
+        }
+      }
+    },
+    "tendoCommonResumeFocus": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resume focus"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Riprendi concentrazione"
+          }
+        }
+      }
+    },
+    "tendoCommonRoutine": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Routine"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Routine"
+          }
+        }
+      }
+    },
+    "tendoCommonSave": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salva"
+          }
+        }
+      }
+    },
+    "tendoCommonScheduled": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scheduled"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Programmato"
+          }
+        }
+      }
+    },
+    "tendoCommonSelected": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Selected"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Selezionato"
+          }
+        }
+      }
+    },
+    "tendoCommonStart": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avvia"
+          }
+        }
+      }
+    },
+    "tendoCommonSteps": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Steps"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Passaggi"
+          }
+        }
+      }
+    },
+    "tendoCommonStorage": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Storage"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Archiviazione"
+          }
+        }
+      }
+    },
+    "tendoCommonTask": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Task"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Attività"
+          }
+        }
+      }
+    },
+    "tendoCommonThisWeek": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This week"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Questa settimana"
+          }
+        }
+      }
+    },
+    "tendoCommonTinySteps": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tiny Steps"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Piccoli passi"
+          }
+        }
+      }
+    },
+    "tendoCommonWeek": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Week"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Settimana"
+          }
+        }
+      }
+    },
+    "tendoFocusCompleteTask": {
+      "comment": "Focus interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Complete task"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Completa attività"
+          }
+        }
+      }
+    },
+    "tendoFocusCustomFocus": {
+      "comment": "Focus interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Custom Focus"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Concentrazione personalizzata"
+          }
+        }
+      }
+    },
+    "tendoFocusEndFocus": {
+      "comment": "Focus interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "End Focus"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Termina concentrazione"
+          }
+        }
+      }
+    },
+    "tendoFocusFinishActionTitle": {
+      "comment": "Focus interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Finish Focus"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Termina concentrazione"
+          }
+        }
+      }
+    },
+    "tendoFocusPauseActionTitle": {
+      "comment": "Focus interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pause Focus"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Metti in pausa"
+          }
+        }
+      }
+    },
+    "tendoFocusResumeActionTitle": {
+      "comment": "Focus interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resume Focus"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Riprendi concentrazione"
+          }
+        }
+      }
+    },
+    "tendoFocusStartActionTitle": {
+      "comment": "Focus interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start Focus"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avvia concentrazione"
+          }
+        }
+      }
+    },
+    "tendoFocusTitle": {
+      "comment": "Focus interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Focus"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Concentrazione"
+          }
+        }
+      }
+    },
+    "tendoGentleQuietHoursTitle": {
+      "comment": "Reminders interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quiet hours"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ore silenziose"
+          }
+        }
+      }
+    },
+    "tendoGentleScreenTitle": {
+      "comment": "Reminders interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gentle Reminders"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Promemoria delicati"
+          }
+        }
+      }
+    },
+    "tendoGentleTime": {
+      "comment": "Reminders interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Time"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tempo"
+          }
+        }
+      }
+    },
+    "tendoGuideAppleWatchTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apple Watch"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apple Watch"
+          }
+        }
+      }
+    },
+    "tendoGuideBrainDumpTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brain Dump"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Svuota la mente"
+          }
+        }
+      }
+    },
+    "tendoGuideExplore": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Explore Tendo"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esplora Tendo"
+          }
+        }
+      }
+    },
+    "tendoGuideFocusTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Focus"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Concentrazione"
+          }
+        }
+      }
+    },
+    "tendoGuideHelpfulTip": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Helpful tip"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suggerimento utile"
+          }
+        }
+      }
+    },
+    "tendoGuideHelpfulTipsTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Helpful Tips"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suggerimenti utili"
+          }
+        }
+      }
+    },
+    "tendoGuideLiveActivitiesTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Live Activities"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Attività in tempo reale"
+          }
+        }
+      }
+    },
+    "tendoGuideNotificationsTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gentle Reminders"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Promemoria delicati"
+          }
+        }
+      }
+    },
+    "tendoGuideNowTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Now"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adesso"
+          }
+        }
+      }
+    },
+    "tendoGuidePersonalizationTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Personalization"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Personalizzazione"
+          }
+        }
+      }
+    },
+    "tendoGuideResetTips": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reset Tips"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reimposta suggerimenti"
+          }
+        }
+      }
+    },
+    "tendoGuideRoutineFoldersTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Routine folders"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cartelle delle routine"
+          }
+        }
+      }
+    },
+    "tendoGuideRoutinesTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Routines"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Routine"
+          }
+        }
+      }
+    },
+    "tendoGuideShortcutsTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Siri and Shortcuts"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Siri e Comandi Rapidi"
+          }
+        }
+      }
+    },
+    "tendoGuideShowAgain": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Tips Again"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostra di nuovo i suggerimenti"
+          }
+        }
+      }
+    },
+    "tendoGuideShowTips": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Helpful Tips"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostra suggerimenti utili"
+          }
+        }
+      }
+    },
+    "tendoGuideTasksTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tasks"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Attività"
+          }
+        }
+      }
+    },
+    "tendoGuideTinyStepsTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tiny Steps"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Piccoli passi"
+          }
+        }
+      }
+    },
+    "tendoGuideTodayTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Today"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oggi"
+          }
+        }
+      }
+    },
+    "tendoGuideWeekTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Week"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Settimana"
+          }
+        }
+      }
+    },
+    "tendoGuideWidgetsTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Widgets"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Widget"
+          }
+        }
+      }
+    },
+    "tendoIconsGeneral": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "General"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Generali"
+          }
+        }
+      }
+    },
+    "tendoIconsHealth": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Health"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salute"
+          }
+        }
+      }
+    },
+    "tendoIconsHome": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Home"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Casa"
+          }
+        }
+      }
+    },
+    "tendoIconsLearning": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Learning"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apprendimento"
+          }
+        }
+      }
+    },
+    "tendoIconsLeisure": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Leisure"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tempo libero"
+          }
+        }
+      }
+    },
+    "tendoIconsNature": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nature"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Natura"
+          }
+        }
+      }
+    },
+    "tendoIconsTravel": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Travel"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Viaggi"
+          }
+        }
+      }
+    },
+    "tendoLiveActivityFinishFocus": {
+      "comment": "Focus Live Activity. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Finish focus"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Termina concentrazione"
+          }
+        }
+      }
+    },
+    "tendoLiveActivitySession": {
+      "comment": "Focus Live Activity. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Session"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sessione"
+          }
+        }
+      }
+    },
+    "tendoLocalizationActiveTaskCount": {
+      "comment": "Pluralized count. Retain named arguments and natural language-specific plural categories.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld active task"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld active tasks"
+                }
+              }
+            }
+          }
+        },
+        "it": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld attività attiva"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld attività attive"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "tendoLocalizationFocusSessionCount": {
+      "comment": "Pluralized count. Retain named arguments and natural language-specific plural categories.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld session"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld sessions"
+                }
+              }
+            }
+          }
+        },
+        "it": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld sessione"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld sessioni"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "tendoLocalizationFocusedMinuteCount": {
+      "comment": "Pluralized count. Retain named arguments and natural language-specific plural categories.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld focused minute."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld focused minutes."
+                }
+              }
+            }
+          }
+        },
+        "it": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld minuto di concentrazione."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld minuti di concentrazione."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "tendoLocalizationRoutineStepCount": {
+      "comment": "Pluralized count. Retain named arguments and natural language-specific plural categories.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld step"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld steps"
+                }
+              }
+            }
+          }
+        },
+        "it": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld passaggio"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld passaggi"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "tendoMomentumHomeVariant": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Home"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Casa"
+          }
+        }
+      }
+    },
+    "tendoNavigationNow": {
+      "comment": "Main navigation label. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Now"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adesso"
+          }
+        }
+      }
+    },
+    "tendoNavigationProgress": {
+      "comment": "Main navigation label. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Progress"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Progressi"
+          }
+        }
+      }
+    },
+    "tendoNavigationRoutines": {
+      "comment": "Main navigation label. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Routines"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Routine"
+          }
+        }
+      }
+    },
+    "tendoNavigationSettings": {
+      "comment": "Main navigation label. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Settings"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impostazioni"
+          }
+        }
+      }
+    },
+    "tendoNavigationTasks": {
+      "comment": "Main navigation label. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tasks"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Attività"
+          }
+        }
+      }
+    },
+    "tendoNavigationToday": {
+      "comment": "Main navigation label. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Today"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oggi"
+          }
+        }
+      }
+    },
+    "tendoNotificationsAllowNotifications": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Allow Notifications"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Consenti notifiche"
+          }
+        }
+      }
+    },
+    "tendoNotificationsNotEnabled": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not enabled"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Non abilitato"
+          }
+        }
+      }
+    },
+    "tendoNotificationsNotificationSound": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Notification sound"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suono notifiche"
+          }
+        }
+      }
+    },
+    "tendoNotificationsNotifications": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Notifications"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Notifiche"
+          }
+        }
+      }
+    },
+    "tendoNotificationsOpenNotificationSettings": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Notification Settings"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apri impostazioni notifiche"
+          }
+        }
+      }
+    },
+    "tendoNotificationsPreview": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preview"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anteprima"
+          }
+        }
+      }
+    },
+    "tendoNotificationsReminderTime": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reminder time"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Orario promemoria"
+          }
+        }
+      }
+    },
+    "tendoNotificationsReminders": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reminders"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Promemoria"
+          }
+        }
+      }
+    },
+    "tendoNotificationsSystemDefault": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "System Default"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impostazione di sistema"
+          }
+        }
+      }
+    },
+    "tendoNotificationsUpcoming": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Upcoming"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In arrivo"
+          }
+        }
+      }
+    },
+    "tendoNowAddATask": {
+      "comment": "Now screen. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add a task"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aggiungi un'attività"
+          }
+        }
+      }
+    },
+    "tendoNowFocusMode": {
+      "comment": "Now screen. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Focus mode"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modalità concentrazione"
+          }
+        }
+      }
+    },
+    "tendoNowNotNow": {
+      "comment": "Now screen. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not now"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Non ora"
+          }
+        }
+      }
+    },
+    "tendoNowWelcomeBack": {
+      "comment": "Now screen. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Welcome back"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bentornato"
+          }
+        }
+      }
+    },
+    "tendoOnboardingReviewToday": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Review today"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rivedi la giornata"
+          }
+        }
+      }
+    },
+    "tendoOnboardingSkip": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skip"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salta"
+          }
+        }
+      }
+    },
+    "tendoOnboardingTakeVitamins": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Take vitamins"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prendi le vitamine"
+          }
+        }
+      }
+    },
+    "tendoOnboardingTinyStep": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tiny step"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Piccolo passo"
+          }
+        }
+      }
+    },
+    "tendoOnboardingWelcomeBack": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Welcome Back"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bentornato"
+          }
+        }
+      }
+    },
+    "tendoProgressFinished": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "finished"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Terminato"
+          }
+        }
+      }
+    },
+    "tendoProgressResetProgress": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reset Progress"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reimposta progressi"
+          }
+        }
+      }
+    },
+    "tendoProgressResetProgressVariant": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reset progress"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reimposta progressi"
+          }
+        }
+      }
+    },
+    "tendoProgressYesterday": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yesterday"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ieri"
+          }
+        }
+      }
+    },
+    "tendoRoutinesAdd": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aggiungi"
+          }
+        }
+      }
+    },
+    "tendoRoutinesAddRoutine": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add Routine"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aggiungi routine"
+          }
+        }
+      }
+    },
+    "tendoRoutinesAddStep": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add Step"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aggiungi passaggio"
+          }
+        }
+      }
+    },
+    "tendoRoutinesCreateFolder": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Create Folder"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Crea cartella"
+          }
+        }
+      }
+    },
+    "tendoRoutinesDeleteFolder": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete Folder"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elimina cartella"
+          }
+        }
+      }
+    },
+    "tendoRoutinesEditFolder": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edit Folder"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modifica cartella"
+          }
+        }
+      }
+    },
+    "tendoRoutinesEditRoutine": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edit Routine"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modifica routine"
+          }
+        }
+      }
+    },
+    "tendoRoutinesFolder": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Folder"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cartella"
+          }
+        }
+      }
+    },
+    "tendoRoutinesFolders": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Folders"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cartelle"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconCoffee": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Coffee"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caffè"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconEvening": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Evening"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sera"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconFamily": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Family"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Famiglia"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconFitness": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fitness"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fitness"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconFolder": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Folder"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cartella"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconFood": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Food"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cibo"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconHealth": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Health"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salute"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconHome": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Home"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Casa"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconMorning": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morning"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mattina"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconNature": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nature"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Natura"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconPersonal": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Personal"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Personale"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconPlanning": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Planning"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pianificazione"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconShopping": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Shopping"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acquisti"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconSleep": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sleep"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sonno"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconStudy": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Study"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Studio"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconWork": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Work"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lavoro"
+          }
+        }
+      }
+    },
+    "tendoRoutinesManageFolders": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manage Folders"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gestisci cartelle"
+          }
+        }
+      }
+    },
+    "tendoRoutinesMove": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Move"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sposta"
+          }
+        }
+      }
+    },
+    "tendoRoutinesNewFolder": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New Folder"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nuova cartella"
+          }
+        }
+      }
+    },
+    "tendoRoutinesNewRoutine": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New Routine"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nuova routine"
+          }
+        }
+      }
+    },
+    "tendoRoutinesStartRoutine": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start routine"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avvia routine"
+          }
+        }
+      }
+    },
+    "tendoSampleDataBuyGroceries": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buy groceries"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fai la spesa"
+          }
+        }
+      }
+    },
+    "tendoSampleDataDrinkSomeWater": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Drink some water"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bevi un po’ d’acqua"
+          }
+        }
+      }
+    },
+    "tendoSampleDataWater": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Water"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acqua"
+          }
+        }
+      }
+    },
+    "tendoSettingsAboutTendo": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "About Tendo"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Informazioni su Tendo"
+          }
+        }
+      }
+    },
+    "tendoSettingsActive": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Active"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Attivo"
+          }
+        }
+      }
+    },
+    "tendoSettingsAppearance": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Appearance"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aspetto"
+          }
+        }
+      }
+    },
+    "tendoSettingsAppleWatchTitle": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apple Watch"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apple Watch"
+          }
+        }
+      }
+    },
+    "tendoSettingsBackupAndRestoreTitle": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Backup & Restore"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Backup e ripristino"
+          }
+        }
+      }
+    },
+    "tendoSettingsBackupPassword": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Backup password"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Password del backup"
+          }
+        }
+      }
+    },
+    "tendoSettingsBackupVerified": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Backup verified"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Backup verificato"
+          }
+        }
+      }
+    },
+    "tendoSettingsConfirmPassword": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Confirm password"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conferma password"
+          }
+        }
+      }
+    },
+    "tendoSettingsConnectedNow": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connected now"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ora connesso"
+          }
+        }
+      }
+    },
+    "tendoSettingsData": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Data"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dati"
+          }
+        }
+      }
+    },
+    "tendoSettingsEncryptBackup": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Encrypt Backup"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Crittografa backup"
+          }
+        }
+      }
+    },
+    "tendoSettingsExportAllData": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Export All Data"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esporta tutti i dati"
+          }
+        }
+      }
+    },
+    "tendoSettingsFocusSessions": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Focus sessions"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sessioni di concentrazione"
+          }
+        }
+      }
+    },
+    "tendoSettingsFocusSettings": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Focus Settings"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impostazioni concentrazione"
+          }
+        }
+      }
+    },
+    "tendoSettingsFocusSettingsTitle": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Focus Settings"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impostazioni concentrazione"
+          }
+        }
+      }
+    },
+    "tendoSettingsGetInvolved": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Get involved"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Partecipa"
+          }
+        }
+      }
+    },
+    "tendoSettingsInactive": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inactive"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inattivo"
+          }
+        }
+      }
+    },
+    "tendoSettingsLists": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lists"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elenchi"
+          }
+        }
+      }
+    },
+    "tendoSettingsNoAdvertisingSdk": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No advertising SDK"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nessun SDK pubblicitario"
+          }
+        }
+      }
+    },
+    "tendoSettingsNoAnalyticsSdk": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No analytics SDK"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nessun SDK di analisi"
+          }
+        }
+      }
+    },
+    "tendoSettingsOpenSettings": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Settings"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apri Impostazioni"
+          }
+        }
+      }
+    },
+    "tendoSettingsPersonalization": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Personalization"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Personalizzazione"
+          }
+        }
+      }
+    },
+    "tendoSettingsPrivacy": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Privacy"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Privacy"
+          }
+        }
+      }
+    },
+    "tendoSettingsQuickTips": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quick Tips"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suggerimenti rapidi"
+          }
+        }
+      }
+    },
+    "tendoSettingsReplaceCurrentData": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Replace Current Data"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sostituisci i dati attuali"
+          }
+        }
+      }
+    },
+    "tendoSettingsReplayOnboardingTitle": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Replay Onboarding"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ripeti l'introduzione"
+          }
+        }
+      }
+    },
+    "tendoSettingsRestoreBackup": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restore Backup"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ripristina backup"
+          }
+        }
+      }
+    },
+    "tendoSettingsRestoreThisBackup": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restore This Backup"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ripristina questo backup"
+          }
+        }
+      }
+    },
+    "tendoSettingsSiriAndShortcutsTitle": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Siri & Shortcuts"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Siri e Comandi Rapidi"
+          }
+        }
+      }
+    },
+    "tendoSettingsStatus": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Status"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stato"
+          }
+        }
+      }
+    },
+    "tendoSettingsTheme": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Theme"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tema"
+          }
+        }
+      }
+    },
+    "tendoSettingsThemeDark": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dark"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scuro"
+          }
+        }
+      }
+    },
+    "tendoSettingsThemeLight": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Light"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chiaro"
+          }
+        }
+      }
+    },
+    "tendoSettingsThemeSystem": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "System"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sistema"
+          }
+        }
+      }
+    },
+    "tendoSettingsTomorrow": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tomorrow"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Domani"
+          }
+        }
+      }
+    },
+    "tendoSettingsVerify": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verify"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verifica"
+          }
+        }
+      }
+    },
+    "tendoSettingsVerifyBackup": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verify Backup"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verifica backup"
+          }
+        }
+      }
+    },
+    "tendoSettingsVersion": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Version"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Versione"
+          }
+        }
+      }
+    },
+    "tendoSettingsWidgets": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Widgets"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Widget"
+          }
+        }
+      }
+    },
+    "tendoSettingsYesterday": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yesterday"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ieri"
+          }
+        }
+      }
+    },
+    "tendoShortcutsCompleteTaskTitle": {
+      "comment": "Siri and Shortcuts. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Complete Task"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Completa attività"
+          }
+        }
+      }
+    },
+    "tendoShortcutsDueDate": {
+      "comment": "Siri and Shortcuts. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Due Date"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scadenza"
+          }
+        }
+      }
+    },
+    "tendoShortcutsMinutes": {
+      "comment": "Siri and Shortcuts. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Minutes"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Minuti"
+          }
+        }
+      }
+    },
+    "tendoShortcutsStartRoutineTitle": {
+      "comment": "Siri and Shortcuts. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start Routine"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avvia routine"
+          }
+        }
+      }
+    },
+    "tendoShortcutsTitle": {
+      "comment": "Siri and Shortcuts. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Title"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Titolo"
+          }
+        }
+      }
+    },
+    "tendoTasksActive": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Active"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Attivo"
+          }
+        }
+      }
+    },
+    "tendoTasksAdd": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aggiungi"
+          }
+        }
+      }
+    },
+    "tendoTasksAddTask": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add Task"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aggiungi attività"
+          }
+        }
+      }
+    },
+    "tendoTasksAvailable": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Available"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Disponibile"
+          }
+        }
+      }
+    },
+    "tendoTasksDay": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Day"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Giorno"
+          }
+        }
+      }
+    },
+    "tendoTasksEditTask": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edit Task"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modifica attività"
+          }
+        }
+      }
+    },
+    "tendoTasksHigh": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "High"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alta"
+          }
+        }
+      }
+    },
+    "tendoTasksMarkComplete": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mark complete"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Segna come completata"
+          }
+        }
+      }
+    },
+    "tendoTasksMarkIncomplete": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mark incomplete"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Segna come non completata"
+          }
+        }
+      }
+    },
+    "tendoTasksMedium": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Medium"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Media"
+          }
+        }
+      }
+    },
+    "tendoTasksMove": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Move"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sposta"
+          }
+        }
+      }
+    },
+    "tendoTasksNewTask": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New Task"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nuova attività"
+          }
+        }
+      }
+    },
+    "tendoTasksNotes": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Notes"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Note"
+          }
+        }
+      }
+    },
+    "tendoTasksNothingWaiting": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nothing waiting"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Niente in attesa"
+          }
+        }
+      }
+    },
+    "tendoTasksReminder": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reminder"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Promemoria"
+          }
+        }
+      }
+    },
+    "tendoTasksTomorrow": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tomorrow"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Domani"
+          }
+        }
+      }
+    },
+    "tendoTodayAfternoon": {
+      "comment": "Today screen. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Afternoon"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pomeriggio"
+          }
+        }
+      }
+    },
+    "tendoTodayDueToday": {
+      "comment": "Today screen. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Due today"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scade oggi"
+          }
+        }
+      }
+    },
+    "tendoTodayEvening": {
+      "comment": "Today screen. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Evening"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sera"
+          }
+        }
+      }
+    },
+    "tendoTodayLow": {
+      "comment": "Today screen. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Low"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bassa"
+          }
+        }
+      }
+    },
+    "tendoTodayMorning": {
+      "comment": "Today screen. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morning"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mattina"
+          }
+        }
+      }
+    },
+    "tendoTodayNow": {
+      "comment": "Today screen. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Now · %1$(text)@"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adesso · %1$(text)@"
+          }
+        }
+      }
+    },
+    "tendoTodayOpen": {
+      "comment": "Today screen. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apri"
+          }
+        }
+      }
+    },
+    "tendoTodayOverdue": {
+      "comment": "Today screen. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Overdue"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scaduto"
+          }
+        }
+      }
+    },
+    "tendoTodayTime": {
+      "comment": "Today screen. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Time"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tempo"
+          }
+        }
+      }
+    },
+    "tendoTodayToday": {
+      "comment": "Today screen. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Today · %1$(text)@"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oggi · %1$(text)@"
+          }
+        }
+      }
+    },
+    "tendoTodayUnscheduled": {
+      "comment": "Today screen. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unscheduled"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Non programmato"
+          }
+        }
+      }
+    },
+    "tendoWatchFocusOptions": {
+      "comment": "Apple Watch interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Focus options"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opzioni concentrazione"
+          }
+        }
+      }
+    },
+    "tendoWatchRoutineComplete": {
+      "comment": "Apple Watch interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Routine complete"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Routine completata"
+          }
+        }
+      }
+    },
+    "tendoWhatsNew131GuideTitle": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Explore Tendo"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esplora Tendo"
+          }
+        }
+      }
+    },
+    "tendoWhatsNew131TipsTitle": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Helpful Tips"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suggerimenti utili"
+          }
+        }
+      }
+    },
+    "tendoWhatsNewResetProgressTitle": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reset Progress"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reimposta progressi"
+          }
+        }
+      }
+    },
+    "tendoWhatsNewRoutineFoldersTitle": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Routine folders"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cartelle delle routine"
+          }
+        }
+      }
+    },
+    "tendoWhatsNewSiriAndShortcutsTitle": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Siri & Shortcuts"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Siri e Comandi Rapidi"
+          }
+        }
+      }
+    },
+    "tendoWhatsNewTitle": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "What's New"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Novità"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.1"
+}

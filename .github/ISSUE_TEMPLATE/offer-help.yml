@@ -1,0 +1,30 @@
+name: Offer Translation Help
+description: I'd love to know what language you can help with.
+title: "[Help] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks! A small amount of help is just as welcome as a full translation. No programming required.
+  - type: input
+    id: language
+    attributes:
+      label: Language you can help with
+      placeholder: e.g. German (de)
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: How would you like to help?
+      options:
+        - Translate new wording
+        - Proofread existing translations
+        - Both
+    validations:
+      required: true
+  - type: textarea
+    id: area
+    attributes:
+      label: Is there a part of Tendo you'd like to focus on?
+      description: Optional — tasks, routines, Focus, Watch, or anything else.

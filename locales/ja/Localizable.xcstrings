@@ -1,0 +1,4632 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "tendoBrainDumpBrainDump": {
+      "comment": "Brain Dump feature. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brain dump"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "頭の中を書き出す"
+          }
+        }
+      }
+    },
+    "tendoBrainDumpInbox": {
+      "comment": "Brain Dump feature. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inbox"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "受信箱"
+          }
+        }
+      }
+    },
+    "tendoBrainDumpWaitingVariant": {
+      "comment": "Brain Dump feature. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Waiting"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "待機中"
+          }
+        }
+      }
+    },
+    "tendoCalendarConnected": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connected"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "接続済み"
+          }
+        }
+      }
+    },
+    "tendoCalendarDrinkSomeWater": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Drink some water"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "水を飲む"
+          }
+        }
+      }
+    },
+    "tendoCalendarNotConnected": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not connected"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未接続"
+          }
+        }
+      }
+    },
+    "tendoCalendarOpenSystemSettings": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open System Settings"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "システム設定を開く"
+          }
+        }
+      }
+    },
+    "tendoCommonAddOneTask": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add one task"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "タスクを1件追加"
+          }
+        }
+      }
+    },
+    "tendoCommonAppleReminders": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apple Reminders"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Appleリマインダー"
+          }
+        }
+      }
+    },
+    "tendoCommonBrainDump": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brain Dump"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "頭の中を書き出す"
+          }
+        }
+      }
+    },
+    "tendoCommonBreak": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Break"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "休憩"
+          }
+        }
+      }
+    },
+    "tendoCommonCalendar": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Calendar"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "カレンダー"
+          }
+        }
+      }
+    },
+    "tendoCommonCancel": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancel"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "キャンセル"
+          }
+        }
+      }
+    },
+    "tendoCommonClose": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Close"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "閉じる"
+          }
+        }
+      }
+    },
+    "tendoCommonCompleted": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Completed"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "完了"
+          }
+        }
+      }
+    },
+    "tendoCommonContinue": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continue"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "続ける"
+          }
+        }
+      }
+    },
+    "tendoCommonDelete": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "削除"
+          }
+        }
+      }
+    },
+    "tendoCommonDeleteTask": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete task"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "タスクを削除"
+          }
+        }
+      }
+    },
+    "tendoCommonDetails": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Details"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "詳細"
+          }
+        }
+      }
+    },
+    "tendoCommonDone": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Done"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "完了"
+          }
+        }
+      }
+    },
+    "tendoCommonDueDate": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Due date"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "期限"
+          }
+        }
+      }
+    },
+    "tendoCommonDuration": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Duration"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "所要時間"
+          }
+        }
+      }
+    },
+    "tendoCommonEdit": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edit"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "編集"
+          }
+        }
+      }
+    },
+    "tendoCommonEnabled": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enabled"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "有効"
+          }
+        }
+      }
+    },
+    "tendoCommonEnergy": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Energy"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "エネルギー"
+          }
+        }
+      }
+    },
+    "tendoCommonExactTime": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exact time"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正確な時刻"
+          }
+        }
+      }
+    },
+    "tendoCommonFinish": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Finish"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "終了"
+          }
+        }
+      }
+    },
+    "tendoCommonFinished": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Finished"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "終了"
+          }
+        }
+      }
+    },
+    "tendoCommonFlexible": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Flexible"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "柔軟"
+          }
+        }
+      }
+    },
+    "tendoCommonFocusComplete": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Focus complete"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "集中完了"
+          }
+        }
+      }
+    },
+    "tendoCommonFocusEnvironment": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Focus Environment"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "集中環境"
+          }
+        }
+      }
+    },
+    "tendoCommonFocusPaused": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Focus paused"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "集中は一時停止中"
+          }
+        }
+      }
+    },
+    "tendoCommonFocusTimeRemaining": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Focus time remaining"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "残りの集中時間"
+          }
+        }
+      }
+    },
+    "tendoCommonFullAccess": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Full Access"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "フルアクセス"
+          }
+        }
+      }
+    },
+    "tendoCommonGettingStarted": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Getting started"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "はじめに"
+          }
+        }
+      }
+    },
+    "tendoCommonGoodAfternoon": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Good afternoon"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "こんにちは"
+          }
+        }
+      }
+    },
+    "tendoCommonGoodEvening": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Good evening"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "こんばんは"
+          }
+        }
+      }
+    },
+    "tendoCommonGoodMorning": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Good morning"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "おはようございます"
+          }
+        }
+      }
+    },
+    "tendoCommonGoodNight": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Good night"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "おやすみなさい"
+          }
+        }
+      }
+    },
+    "tendoCommonLater": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Later"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "あとで"
+          }
+        }
+      }
+    },
+    "tendoCommonMore": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "More"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "その他"
+          }
+        }
+      }
+    },
+    "tendoCommonNext": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Next"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "次へ"
+          }
+        }
+      }
+    },
+    "tendoCommonNoAccountRequired": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No account required"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "アカウント不要"
+          }
+        }
+      }
+    },
+    "tendoCommonNone": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "None"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "なし"
+          }
+        }
+      }
+    },
+    "tendoCommonOff": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Off"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "オフ"
+          }
+        }
+      }
+    },
+    "tendoCommonOneThing": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "One Thing"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ひとつのこと"
+          }
+        }
+      }
+    },
+    "tendoCommonOneThingVariant": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "One thing"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ひとつのこと"
+          }
+        }
+      }
+    },
+    "tendoCommonOptional": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Optional"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "任意"
+          }
+        }
+      }
+    },
+    "tendoCommonPause": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pause"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "一時停止"
+          }
+        }
+      }
+    },
+    "tendoCommonPauseFocus": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pause focus"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "集中を一時停止"
+          }
+        }
+      }
+    },
+    "tendoCommonPaused": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Paused"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "一時停止中"
+          }
+        }
+      }
+    },
+    "tendoCommonReady": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ready"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "準備完了"
+          }
+        }
+      }
+    },
+    "tendoCommonResume": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resume"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "再開"
+          }
+        }
+      }
+    },
+    "tendoCommonResumeFocus": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resume focus"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "集中を再開"
+          }
+        }
+      }
+    },
+    "tendoCommonRoutine": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Routine"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ルーティン"
+          }
+        }
+      }
+    },
+    "tendoCommonSave": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保存"
+          }
+        }
+      }
+    },
+    "tendoCommonScheduled": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scheduled"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "予定あり"
+          }
+        }
+      }
+    },
+    "tendoCommonSelected": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Selected"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "選択済み"
+          }
+        }
+      }
+    },
+    "tendoCommonStart": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "開始"
+          }
+        }
+      }
+    },
+    "tendoCommonSteps": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Steps"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ステップ"
+          }
+        }
+      }
+    },
+    "tendoCommonStorage": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Storage"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ストレージ"
+          }
+        }
+      }
+    },
+    "tendoCommonTask": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Task"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "タスク"
+          }
+        }
+      }
+    },
+    "tendoCommonThisWeek": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This week"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "今週"
+          }
+        }
+      }
+    },
+    "tendoCommonTinySteps": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tiny Steps"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "小さなステップ"
+          }
+        }
+      }
+    },
+    "tendoCommonWeek": {
+      "comment": "Common action, label, or status. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Week"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "週"
+          }
+        }
+      }
+    },
+    "tendoFocusCompleteTask": {
+      "comment": "Focus interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Complete task"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "タスクを完了"
+          }
+        }
+      }
+    },
+    "tendoFocusCustomFocus": {
+      "comment": "Focus interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Custom Focus"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "カスタム集中"
+          }
+        }
+      }
+    },
+    "tendoFocusEndFocus": {
+      "comment": "Focus interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "End Focus"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "集中を終了"
+          }
+        }
+      }
+    },
+    "tendoFocusFinishActionTitle": {
+      "comment": "Focus interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Finish Focus"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "集中を終了"
+          }
+        }
+      }
+    },
+    "tendoFocusPauseActionTitle": {
+      "comment": "Focus interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pause Focus"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "集中を一時停止"
+          }
+        }
+      }
+    },
+    "tendoFocusResumeActionTitle": {
+      "comment": "Focus interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resume Focus"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "集中を再開"
+          }
+        }
+      }
+    },
+    "tendoFocusStartActionTitle": {
+      "comment": "Focus interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start Focus"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "集中を開始"
+          }
+        }
+      }
+    },
+    "tendoFocusTitle": {
+      "comment": "Focus interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Focus"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "集中"
+          }
+        }
+      }
+    },
+    "tendoGentleQuietHoursTitle": {
+      "comment": "Reminders interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quiet hours"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "通知を控える時間"
+          }
+        }
+      }
+    },
+    "tendoGentleScreenTitle": {
+      "comment": "Reminders interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gentle Reminders"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "やさしいリマインダー"
+          }
+        }
+      }
+    },
+    "tendoGentleTime": {
+      "comment": "Reminders interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Time"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "時間"
+          }
+        }
+      }
+    },
+    "tendoGuideAppleWatchTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apple Watch"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apple Watch"
+          }
+        }
+      }
+    },
+    "tendoGuideBrainDumpTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brain Dump"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "頭の中を書き出す"
+          }
+        }
+      }
+    },
+    "tendoGuideExplore": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Explore Tendo"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tendoを探索"
+          }
+        }
+      }
+    },
+    "tendoGuideFocusTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Focus"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "集中"
+          }
+        }
+      }
+    },
+    "tendoGuideHelpfulTip": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Helpful tip"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "役立つヒント"
+          }
+        }
+      }
+    },
+    "tendoGuideHelpfulTipsTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Helpful Tips"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "役立つヒント"
+          }
+        }
+      }
+    },
+    "tendoGuideLiveActivitiesTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Live Activities"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ライブアクティビティ"
+          }
+        }
+      }
+    },
+    "tendoGuideNotificationsTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gentle Reminders"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "やさしいリマインダー"
+          }
+        }
+      }
+    },
+    "tendoGuideNowTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Now"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "今"
+          }
+        }
+      }
+    },
+    "tendoGuidePersonalizationTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Personalization"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "パーソナライズ"
+          }
+        }
+      }
+    },
+    "tendoGuideResetTips": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reset Tips"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ヒントをリセット"
+          }
+        }
+      }
+    },
+    "tendoGuideRoutineFoldersTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Routine folders"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ルーティンフォルダ"
+          }
+        }
+      }
+    },
+    "tendoGuideRoutinesTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Routines"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ルーティン"
+          }
+        }
+      }
+    },
+    "tendoGuideShortcutsTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Siri and Shortcuts"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Siriとショートカット"
+          }
+        }
+      }
+    },
+    "tendoGuideShowAgain": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Tips Again"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ヒントを再表示"
+          }
+        }
+      }
+    },
+    "tendoGuideShowTips": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Helpful Tips"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "役立つヒントを表示"
+          }
+        }
+      }
+    },
+    "tendoGuideTasksTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tasks"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "タスク"
+          }
+        }
+      }
+    },
+    "tendoGuideTinyStepsTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tiny Steps"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "小さなステップ"
+          }
+        }
+      }
+    },
+    "tendoGuideTodayTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Today"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "今日"
+          }
+        }
+      }
+    },
+    "tendoGuideWeekTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Week"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "週"
+          }
+        }
+      }
+    },
+    "tendoGuideWidgetsTitle": {
+      "comment": "In-app guide. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Widgets"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ウィジェット"
+          }
+        }
+      }
+    },
+    "tendoIconsGeneral": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "General"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "一般"
+          }
+        }
+      }
+    },
+    "tendoIconsHealth": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Health"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "健康"
+          }
+        }
+      }
+    },
+    "tendoIconsHome": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Home"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "家"
+          }
+        }
+      }
+    },
+    "tendoIconsLearning": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Learning"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "学習"
+          }
+        }
+      }
+    },
+    "tendoIconsLeisure": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Leisure"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "余暇"
+          }
+        }
+      }
+    },
+    "tendoIconsNature": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nature"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "自然"
+          }
+        }
+      }
+    },
+    "tendoIconsTravel": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Travel"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "旅行"
+          }
+        }
+      }
+    },
+    "tendoLiveActivityFinishFocus": {
+      "comment": "Focus Live Activity. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Finish focus"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "集中を終了"
+          }
+        }
+      }
+    },
+    "tendoLiveActivitySession": {
+      "comment": "Focus Live Activity. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Session"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "セッション"
+          }
+        }
+      }
+    },
+    "tendoLocalizationActiveTaskCount": {
+      "comment": "Pluralized count. Retain named arguments and natural language-specific plural categories.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld active task"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld active tasks"
+                }
+              }
+            }
+          }
+        },
+        "ja": {
+          "variations": {
+            "plural": {
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld件の進行中のタスク"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "tendoLocalizationFocusSessionCount": {
+      "comment": "Pluralized count. Retain named arguments and natural language-specific plural categories.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld session"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld sessions"
+                }
+              }
+            }
+          }
+        },
+        "ja": {
+          "variations": {
+            "plural": {
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lldセッション"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "tendoLocalizationFocusedMinuteCount": {
+      "comment": "Pluralized count. Retain named arguments and natural language-specific plural categories.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld focused minute."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld focused minutes."
+                }
+              }
+            }
+          }
+        },
+        "ja": {
+          "variations": {
+            "plural": {
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld分間集中しました。"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "tendoLocalizationRoutineStepCount": {
+      "comment": "Pluralized count. Retain named arguments and natural language-specific plural categories.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld step"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lld steps"
+                }
+              }
+            }
+          }
+        },
+        "ja": {
+          "variations": {
+            "plural": {
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%1$(count)lldステップ"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "tendoMomentumHomeVariant": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Home"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "家"
+          }
+        }
+      }
+    },
+    "tendoNavigationNow": {
+      "comment": "Main navigation label. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Now"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "今"
+          }
+        }
+      }
+    },
+    "tendoNavigationProgress": {
+      "comment": "Main navigation label. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Progress"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "進捗"
+          }
+        }
+      }
+    },
+    "tendoNavigationRoutines": {
+      "comment": "Main navigation label. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Routines"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ルーティン"
+          }
+        }
+      }
+    },
+    "tendoNavigationSettings": {
+      "comment": "Main navigation label. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Settings"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "設定"
+          }
+        }
+      }
+    },
+    "tendoNavigationTasks": {
+      "comment": "Main navigation label. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tasks"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "タスク"
+          }
+        }
+      }
+    },
+    "tendoNavigationToday": {
+      "comment": "Main navigation label. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Today"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "今日"
+          }
+        }
+      }
+    },
+    "tendoNotificationsAllowNotifications": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Allow Notifications"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "通知を許可"
+          }
+        }
+      }
+    },
+    "tendoNotificationsNotEnabled": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not enabled"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "無効"
+          }
+        }
+      }
+    },
+    "tendoNotificationsNotificationSound": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Notification sound"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "通知音"
+          }
+        }
+      }
+    },
+    "tendoNotificationsNotifications": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Notifications"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "通知"
+          }
+        }
+      }
+    },
+    "tendoNotificationsOpenNotificationSettings": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Notification Settings"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "通知設定を開く"
+          }
+        }
+      }
+    },
+    "tendoNotificationsPreview": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preview"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "プレビュー"
+          }
+        }
+      }
+    },
+    "tendoNotificationsReminderTime": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reminder time"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "通知時刻"
+          }
+        }
+      }
+    },
+    "tendoNotificationsReminders": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reminders"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "リマインダー"
+          }
+        }
+      }
+    },
+    "tendoNotificationsSystemDefault": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "System Default"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "システム設定"
+          }
+        }
+      }
+    },
+    "tendoNotificationsUpcoming": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Upcoming"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "今後の予定"
+          }
+        }
+      }
+    },
+    "tendoNowAddATask": {
+      "comment": "Now screen. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add a task"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "タスクを追加"
+          }
+        }
+      }
+    },
+    "tendoNowFocusMode": {
+      "comment": "Now screen. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Focus mode"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "集中モード"
+          }
+        }
+      }
+    },
+    "tendoNowNotNow": {
+      "comment": "Now screen. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not now"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "今はしない"
+          }
+        }
+      }
+    },
+    "tendoNowWelcomeBack": {
+      "comment": "Now screen. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Welcome back"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "おかえりなさい"
+          }
+        }
+      }
+    },
+    "tendoOnboardingReviewToday": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Review today"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "今日を振り返る"
+          }
+        }
+      }
+    },
+    "tendoOnboardingSkip": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skip"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "スキップ"
+          }
+        }
+      }
+    },
+    "tendoOnboardingTakeVitamins": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Take vitamins"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ビタミンを飲む"
+          }
+        }
+      }
+    },
+    "tendoOnboardingTinyStep": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tiny step"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "小さなステップ"
+          }
+        }
+      }
+    },
+    "tendoOnboardingWelcomeBack": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Welcome Back"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "おかえりなさい"
+          }
+        }
+      }
+    },
+    "tendoProgressFinished": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "finished"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "終了"
+          }
+        }
+      }
+    },
+    "tendoProgressResetProgress": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reset Progress"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "進捗をリセット"
+          }
+        }
+      }
+    },
+    "tendoProgressResetProgressVariant": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reset progress"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "進捗をリセット"
+          }
+        }
+      }
+    },
+    "tendoProgressYesterday": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yesterday"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "昨日"
+          }
+        }
+      }
+    },
+    "tendoRoutinesAdd": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "追加"
+          }
+        }
+      }
+    },
+    "tendoRoutinesAddRoutine": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add Routine"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ルーティンを追加"
+          }
+        }
+      }
+    },
+    "tendoRoutinesAddStep": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add Step"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ステップを追加"
+          }
+        }
+      }
+    },
+    "tendoRoutinesCreateFolder": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Create Folder"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "フォルダを作成"
+          }
+        }
+      }
+    },
+    "tendoRoutinesDeleteFolder": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete Folder"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "フォルダを削除"
+          }
+        }
+      }
+    },
+    "tendoRoutinesEditFolder": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edit Folder"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "フォルダを編集"
+          }
+        }
+      }
+    },
+    "tendoRoutinesEditRoutine": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edit Routine"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ルーティンを編集"
+          }
+        }
+      }
+    },
+    "tendoRoutinesFolder": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Folder"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "フォルダ"
+          }
+        }
+      }
+    },
+    "tendoRoutinesFolders": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Folders"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "フォルダ"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconCoffee": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Coffee"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "コーヒー"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconEvening": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Evening"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "夕方"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconFamily": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Family"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "家族"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconFitness": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fitness"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "フィットネス"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconFolder": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Folder"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "フォルダ"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconFood": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Food"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "食べ物"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconHealth": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Health"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "健康"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconHome": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Home"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "家"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconMorning": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morning"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "朝"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconNature": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nature"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "自然"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconPersonal": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Personal"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "個人"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconPlanning": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Planning"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "計画"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconShopping": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Shopping"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "買い物"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconSleep": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sleep"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "睡眠"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconStudy": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Study"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "勉強"
+          }
+        }
+      }
+    },
+    "tendoRoutinesIconWork": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Work"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "仕事"
+          }
+        }
+      }
+    },
+    "tendoRoutinesManageFolders": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manage Folders"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "フォルダを管理"
+          }
+        }
+      }
+    },
+    "tendoRoutinesMove": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Move"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "移動"
+          }
+        }
+      }
+    },
+    "tendoRoutinesNewFolder": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New Folder"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新しいフォルダ"
+          }
+        }
+      }
+    },
+    "tendoRoutinesNewRoutine": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New Routine"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新しいルーティン"
+          }
+        }
+      }
+    },
+    "tendoRoutinesStartRoutine": {
+      "comment": "Routines interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start routine"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ルーティンを開始"
+          }
+        }
+      }
+    },
+    "tendoSampleDataBuyGroceries": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buy groceries"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "食料品を買う"
+          }
+        }
+      }
+    },
+    "tendoSampleDataDrinkSomeWater": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Drink some water"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "水を飲む"
+          }
+        }
+      }
+    },
+    "tendoSampleDataWater": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Water"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "水"
+          }
+        }
+      }
+    },
+    "tendoSettingsAboutTendo": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "About Tendo"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tendoについて"
+          }
+        }
+      }
+    },
+    "tendoSettingsActive": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Active"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "進行中"
+          }
+        }
+      }
+    },
+    "tendoSettingsAppearance": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Appearance"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "外観"
+          }
+        }
+      }
+    },
+    "tendoSettingsAppleWatchTitle": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apple Watch"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apple Watch"
+          }
+        }
+      }
+    },
+    "tendoSettingsBackupAndRestoreTitle": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Backup & Restore"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "バックアップと復元"
+          }
+        }
+      }
+    },
+    "tendoSettingsBackupPassword": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Backup password"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "バックアップのパスワード"
+          }
+        }
+      }
+    },
+    "tendoSettingsBackupVerified": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Backup verified"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "バックアップを検証しました"
+          }
+        }
+      }
+    },
+    "tendoSettingsConfirmPassword": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Confirm password"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "パスワードを確認"
+          }
+        }
+      }
+    },
+    "tendoSettingsConnectedNow": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connected now"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "接続しました"
+          }
+        }
+      }
+    },
+    "tendoSettingsData": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Data"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "データ"
+          }
+        }
+      }
+    },
+    "tendoSettingsEncryptBackup": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Encrypt Backup"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "バックアップを暗号化"
+          }
+        }
+      }
+    },
+    "tendoSettingsExportAllData": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Export All Data"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "すべてのデータをエクスポート"
+          }
+        }
+      }
+    },
+    "tendoSettingsFocusSessions": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Focus sessions"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "集中セッション"
+          }
+        }
+      }
+    },
+    "tendoSettingsFocusSettings": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Focus Settings"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "集中設定"
+          }
+        }
+      }
+    },
+    "tendoSettingsFocusSettingsTitle": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Focus Settings"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "集中設定"
+          }
+        }
+      }
+    },
+    "tendoSettingsGetInvolved": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Get involved"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "参加する"
+          }
+        }
+      }
+    },
+    "tendoSettingsInactive": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inactive"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "無効"
+          }
+        }
+      }
+    },
+    "tendoSettingsLists": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lists"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "リスト"
+          }
+        }
+      }
+    },
+    "tendoSettingsNoAdvertisingSdk": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No advertising SDK"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "広告SDKなし"
+          }
+        }
+      }
+    },
+    "tendoSettingsNoAnalyticsSdk": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No analytics SDK"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "分析SDKなし"
+          }
+        }
+      }
+    },
+    "tendoSettingsOpenSettings": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Settings"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "設定を開く"
+          }
+        }
+      }
+    },
+    "tendoSettingsPersonalization": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Personalization"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "パーソナライズ"
+          }
+        }
+      }
+    },
+    "tendoSettingsPrivacy": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Privacy"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "プライバシー"
+          }
+        }
+      }
+    },
+    "tendoSettingsQuickTips": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quick Tips"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "クイックヒント"
+          }
+        }
+      }
+    },
+    "tendoSettingsReplaceCurrentData": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Replace Current Data"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "現在のデータを置き換える"
+          }
+        }
+      }
+    },
+    "tendoSettingsReplayOnboardingTitle": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Replay Onboarding"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "初期ガイドをもう一度"
+          }
+        }
+      }
+    },
+    "tendoSettingsRestoreBackup": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restore Backup"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "バックアップを復元"
+          }
+        }
+      }
+    },
+    "tendoSettingsRestoreThisBackup": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restore This Backup"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "このバックアップを復元"
+          }
+        }
+      }
+    },
+    "tendoSettingsSiriAndShortcutsTitle": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Siri & Shortcuts"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Siriとショートカット"
+          }
+        }
+      }
+    },
+    "tendoSettingsStatus": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Status"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "状態"
+          }
+        }
+      }
+    },
+    "tendoSettingsTheme": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Theme"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "テーマ"
+          }
+        }
+      }
+    },
+    "tendoSettingsThemeDark": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dark"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ダーク"
+          }
+        }
+      }
+    },
+    "tendoSettingsThemeLight": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Light"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ライト"
+          }
+        }
+      }
+    },
+    "tendoSettingsThemeSystem": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "System"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "システム"
+          }
+        }
+      }
+    },
+    "tendoSettingsTomorrow": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tomorrow"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "明日"
+          }
+        }
+      }
+    },
+    "tendoSettingsVerify": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verify"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "確認"
+          }
+        }
+      }
+    },
+    "tendoSettingsVerifyBackup": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verify Backup"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "バックアップを検証"
+          }
+        }
+      }
+    },
+    "tendoSettingsVersion": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Version"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "バージョン"
+          }
+        }
+      }
+    },
+    "tendoSettingsWidgets": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Widgets"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ウィジェット"
+          }
+        }
+      }
+    },
+    "tendoSettingsYesterday": {
+      "comment": "Settings interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yesterday"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "昨日"
+          }
+        }
+      }
+    },
+    "tendoShortcutsCompleteTaskTitle": {
+      "comment": "Siri and Shortcuts. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Complete Task"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "タスクを完了"
+          }
+        }
+      }
+    },
+    "tendoShortcutsDueDate": {
+      "comment": "Siri and Shortcuts. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Due Date"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "期限"
+          }
+        }
+      }
+    },
+    "tendoShortcutsMinutes": {
+      "comment": "Siri and Shortcuts. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Minutes"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "分"
+          }
+        }
+      }
+    },
+    "tendoShortcutsStartRoutineTitle": {
+      "comment": "Siri and Shortcuts. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start Routine"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ルーティンを開始"
+          }
+        }
+      }
+    },
+    "tendoShortcutsTitle": {
+      "comment": "Siri and Shortcuts. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Title"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "タイトル"
+          }
+        }
+      }
+    },
+    "tendoTasksActive": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Active"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "進行中"
+          }
+        }
+      }
+    },
+    "tendoTasksAdd": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "追加"
+          }
+        }
+      }
+    },
+    "tendoTasksAddTask": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add Task"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "タスクを追加"
+          }
+        }
+      }
+    },
+    "tendoTasksAvailable": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Available"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "利用可能"
+          }
+        }
+      }
+    },
+    "tendoTasksDay": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Day"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "日"
+          }
+        }
+      }
+    },
+    "tendoTasksEditTask": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edit Task"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "タスクを編集"
+          }
+        }
+      }
+    },
+    "tendoTasksHigh": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "High"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "高"
+          }
+        }
+      }
+    },
+    "tendoTasksMarkComplete": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mark complete"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "完了にする"
+          }
+        }
+      }
+    },
+    "tendoTasksMarkIncomplete": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mark incomplete"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未完了にする"
+          }
+        }
+      }
+    },
+    "tendoTasksMedium": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Medium"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "中"
+          }
+        }
+      }
+    },
+    "tendoTasksMove": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Move"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "移動"
+          }
+        }
+      }
+    },
+    "tendoTasksNewTask": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New Task"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新しいタスク"
+          }
+        }
+      }
+    },
+    "tendoTasksNotes": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Notes"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "メモ"
+          }
+        }
+      }
+    },
+    "tendoTasksNothingWaiting": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nothing waiting"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "待機中の項目はありません"
+          }
+        }
+      }
+    },
+    "tendoTasksReminder": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reminder"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "リマインダー"
+          }
+        }
+      }
+    },
+    "tendoTasksTomorrow": {
+      "comment": "Tasks interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tomorrow"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "明日"
+          }
+        }
+      }
+    },
+    "tendoTodayAfternoon": {
+      "comment": "Today screen. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Afternoon"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "午後"
+          }
+        }
+      }
+    },
+    "tendoTodayDueToday": {
+      "comment": "Today screen. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Due today"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "今日が期限"
+          }
+        }
+      }
+    },
+    "tendoTodayEvening": {
+      "comment": "Today screen. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Evening"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "夕方"
+          }
+        }
+      }
+    },
+    "tendoTodayLow": {
+      "comment": "Today screen. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Low"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "低"
+          }
+        }
+      }
+    },
+    "tendoTodayMorning": {
+      "comment": "Today screen. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Morning"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "朝"
+          }
+        }
+      }
+    },
+    "tendoTodayNow": {
+      "comment": "Today screen. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Now · %1$(text)@"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "今 · %1$(text)@"
+          }
+        }
+      }
+    },
+    "tendoTodayOpen": {
+      "comment": "Today screen. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "開く"
+          }
+        }
+      }
+    },
+    "tendoTodayOverdue": {
+      "comment": "Today screen. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Overdue"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "期限切れ"
+          }
+        }
+      }
+    },
+    "tendoTodayTime": {
+      "comment": "Today screen. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Time"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "時間"
+          }
+        }
+      }
+    },
+    "tendoTodayToday": {
+      "comment": "Today screen. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Today · %1$(text)@"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "今日 · %1$(text)@"
+          }
+        }
+      }
+    },
+    "tendoTodayUnscheduled": {
+      "comment": "Today screen. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unscheduled"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "予定なし"
+          }
+        }
+      }
+    },
+    "tendoWatchFocusOptions": {
+      "comment": "Apple Watch interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Focus options"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "集中オプション"
+          }
+        }
+      }
+    },
+    "tendoWatchRoutineComplete": {
+      "comment": "Apple Watch interface. Keep terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Routine complete"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ルーティン完了"
+          }
+        }
+      }
+    },
+    "tendoWhatsNew131GuideTitle": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Explore Tendo"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tendoを探索"
+          }
+        }
+      }
+    },
+    "tendoWhatsNew131TipsTitle": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Helpful Tips"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "役立つヒント"
+          }
+        }
+      }
+    },
+    "tendoWhatsNewResetProgressTitle": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reset Progress"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "進捗をリセット"
+          }
+        }
+      }
+    },
+    "tendoWhatsNewRoutineFoldersTitle": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Routine folders"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ルーティンフォルダ"
+          }
+        }
+      }
+    },
+    "tendoWhatsNewSiriAndShortcutsTitle": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Siri & Shortcuts"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Siriとショートカット"
+          }
+        }
+      }
+    },
+    "tendoWhatsNewTitle": {
+      "comment": "Tendo interface text. Keep natural language and terminology consistent.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "What's New"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新機能"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.1"
+}

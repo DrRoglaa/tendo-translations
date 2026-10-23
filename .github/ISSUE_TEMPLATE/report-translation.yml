@@ -1,0 +1,45 @@
+name: Report a Translation Problem
+description: Spotted something awkward, confusing, or just plain wrong?
+title: "[Translation] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Even a one-word correction helps. Please avoid screenshots containing real task data, schedules, names, or other personal information.
+  - type: input
+    id: language
+    attributes:
+      label: Language
+      placeholder: e.g. Slovenian (sl)
+    validations:
+      required: true
+  - type: input
+    id: screen
+    attributes:
+      label: Tendo screen or feature
+      placeholder: e.g. Settings → Focus, or Today
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current wording
+      description: Please quote the text you see in Tendo.
+    validations:
+      required: true
+  - type: textarea
+    id: suggested
+    attributes:
+      label: How would you say it?
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why is this better?
+      description: A short explanation is great; don't worry about sounding formal.
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Optional screenshot or additional context
+      description: Only share screenshots with invented or fully redacted data. Attach by dragging an image here.

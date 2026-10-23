@@ -1,0 +1,60 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "CFBundleDisplayName": {
+      "comment": "Tendo is a product name; do not translate it.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tendo"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tendo"
+          }
+        }
+      }
+    },
+    "NSCalendarsFullAccessUsageDescription": {
+      "comment": "Apple calendar-permission explanation. Preserve meaning about access and confirmation.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tendo uses your calendar to show commitments and, only when you confirm, create, move, or remove a time block for a Tendo task."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tendoはカレンダーの予定を表示します。Tendoのタスク用の時間枠は、確認後にのみ作成、移動、削除します。"
+          }
+        }
+      }
+    },
+    "NSRemindersFullAccessUsageDescription": {
+      "comment": "Apple Reminders-permission explanation. Preserve meaning about access and confirmation.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tendo uses Apple Reminders to show items due today or earlier and lets you mark them complete from Today."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "TendoはAppleのリマインダーを使い、今日までに期限が来た項目を表示します。「今日」画面から完了にできます。"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

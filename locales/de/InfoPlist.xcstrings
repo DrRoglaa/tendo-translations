@@ -1,0 +1,60 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "CFBundleDisplayName": {
+      "comment": "Tendo is a product name; do not translate it.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tendo"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tendo"
+          }
+        }
+      }
+    },
+    "NSCalendarsFullAccessUsageDescription": {
+      "comment": "Apple calendar-permission explanation. Preserve meaning about access and confirmation.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tendo uses your calendar to show commitments and, only when you confirm, create, move, or remove a time block for a Tendo task."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tendo verwendet deinen Kalender, um Termine anzuzeigen. Zeitblöcke für Tendo-Aufgaben werden nur mit deiner Bestätigung erstellt, verschoben oder entfernt."
+          }
+        }
+      }
+    },
+    "NSRemindersFullAccessUsageDescription": {
+      "comment": "Apple Reminders-permission explanation. Preserve meaning about access and confirmation.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tendo uses Apple Reminders to show items due today or earlier and lets you mark them complete from Today."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tendo verwendet Apple Erinnerungen, um heute oder früher fällige Einträge anzuzeigen. Du kannst sie unter „Heute“ als erledigt markieren."
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

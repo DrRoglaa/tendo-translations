@@ -1,0 +1,45 @@
+name: Request a New Language
+description: Tell me which language you'd love Tendo to speak.
+title: "[Language] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping Tendo reach more people! No Git or programming experience needed.
+  - type: input
+    id: language
+    attributes:
+      label: Language name
+      placeholder: e.g. Portuguese
+    validations:
+      required: true
+  - type: input
+    id: locale
+    attributes:
+      label: Language or locale code (if known)
+      description: It's fine to leave this blank if you don't know it.
+      placeholder: e.g. pt-BR
+  - type: input
+    id: region
+    attributes:
+      label: Country or regional variant (if relevant)
+      placeholder: e.g. Brazil
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would this language be useful?
+      placeholder: Share a little context if you'd like.
+  - type: dropdown
+    id: help
+    attributes:
+      label: Could you help?
+      options:
+        - I can translate
+        - I can proofread
+        - Maybe, please ask me
+        - Not right now
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else?
+      description: Please don't include personal or private app data.
