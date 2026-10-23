@@ -3,9 +3,10 @@
 import copy
 import json
 from pathlib import Path
+import shutil
 import tempfile
 import unittest
-from validate_translations import CATALOGS, load_json, validate_catalog, validate
+from validate_translations import CATALOGS, load_json, validate_catalog, validate, compare_pr_scope
 
 ROOT=Path(__file__).resolve().parents[1]
 BASE=load_json(ROOT/'docs/export-baseline.json')
@@ -61,5 +62,43 @@ class PublicCatalogTests(unittest.TestCase):
         errors,counts=validate(ROOT,ROOT/'docs/export-baseline.json')
         self.assertEqual(errors,[])
         self.assertEqual(len(counts),21)
+
+class PullRequestScopeTests(unittest.TestCase):
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.tmp.cleanup)
+        self.base = Path(self.tmp.name) / 'base'
+        self.pr = Path(self.tmp.name) / 'pr'
+        (self.base / 'locales/sl').mkdir(parents=True)
+        (self.base / 'README.md').write_text('approved description')
+        (self.base / 'locales/sl/Localizable.xcstrings').write_text('old value')
+        shutil.copytree(self.base, self.pr)
+
+    def scope(self):
+        return compare_pr_scope(self.pr, self.base, ['sl', 'de'])
+
+    def test_one_language_allowed(self):
+        (self.pr / 'locales/sl/Localizable.xcstrings').write_text('new value')
+        self.assertEqual(self.scope(), [])
+
+    def test_tooling_or_docs_change_rejected(self):
+        (self.pr / 'README.md').write_text('changed description')
+        self.assertTrue(any('non-translation' in err for err in self.scope()))
+
+    def test_unexpected_file_rejected(self):
+        (self.pr / 'locales/sl/private.swift').write_text('do not publish')
+        self.assertTrue(self.scope())
+
+    def test_two_languages_rejected(self):
+        (self.pr / 'locales/sl/Localizable.xcstrings').write_text('new value')
+        (self.pr / 'locales/de').mkdir()
+        (self.pr / 'locales/de/Localizable.xcstrings').write_text('new value')
+        self.assertTrue(any('one locale' in err for err in self.scope()))
+
+    def test_symlink_rejected(self):
+        (self.pr / 'README.md').unlink()
+        (self.pr / 'README.md').symlink_to('/etc/passwd')
+        self.assertTrue(self.scope())
+
 
 if __name__=='__main__':unittest.main()

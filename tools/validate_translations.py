@@ -141,6 +141,50 @@ def validate_catalog(path: Path, lang: str, baseline: dict, name: str) -> list[s
     return errors
 
 
+def compare_pr_scope(repo: Path, base_tree: Path, locales: list[str]) -> list[str]:
+    """Reject changes outside one public language pack in ordinary contributor PRs.
+
+    Compare trees without executing anything in the submitted checkout; Git metadata
+    and generated Python caches are never evaluated as contribution content.
+    Maintainer tooling/documentation changes require a separately reviewed process.
+    """
+    def files(root: Path) -> set[Path]:
+        return {
+            path.relative_to(root)
+            for path in root.rglob("*")
+            if path.is_file() or path.is_symlink()
+            if not any(part in {".git", "__pycache__"} for part in path.relative_to(root).parts)
+            if path.suffix not in {".pyc", ".pyo"}
+        }
+
+    original = files(base_tree)
+    proposed = files(repo)
+    permitted = {
+        Path("locales") / lang / catalog
+        for lang in locales for catalog in CATALOGS
+    }
+    problems = []
+    changed_languages = set()
+    for rel in sorted(original | proposed):
+        a = base_tree / rel
+        b = repo / rel
+        try:
+            if a.is_symlink() or b.is_symlink():
+                problems.append(f"Symlinks are forbidden in contributions: {rel}")
+                continue
+            if a.is_file() and b.is_file() and a.read_bytes() == b.read_bytes():
+                continue
+        except OSError:
+            pass
+        if rel not in permitted:
+            problems.append(f"Unapproved non-translation change: {rel}")
+        else:
+            changed_languages.add(rel.parts[1])
+    if len(changed_languages) > 1:
+        problems.append("Please change only one locale per Pull Request")
+    return problems
+
+
 def validate(repo: Path, baseline_path: Path, base_tree: Path | None = None) -> tuple[list[str], dict[str, int]]:
     errors=[]
     base = load_json(baseline_path)
@@ -152,6 +196,7 @@ def validate(repo: Path, baseline_path: Path, base_tree: Path | None = None) -> 
     if set(base.get("catalogs", {})) != set(CATALOGS):
         return ["Missing or unexpected catalog definition"], {}
     if base_tree is not None:
+        errors.extend(compare_pr_scope(repo, base_tree, languages))
         if (repo/"docs/export-baseline.json").read_bytes() != baseline_path.read_bytes():
             errors.append("Protected export baseline edited; maintainer re-export needed")
     counts={}
@@ -171,16 +216,6 @@ def validate(repo: Path, baseline_path: Path, base_tree: Path | None = None) -> 
                     counts[f"{lang}/{name}"]=translated
                 except (ValueError,KeyError,TypeError):
                     pass
-    # A PR should normally touch exactly one language's catalog(s).
-    if base_tree is not None:
-        changed=[]
-        for lang in languages:
-            for name in CATALOGS:
-                rel=Path("locales")/lang/name
-                if (repo/rel).read_bytes() != (base_tree/rel).read_bytes():
-                    changed.append(lang)
-        if len(set(changed))>1:
-            errors.append("Please change only one locale per Pull Request")
     # Reject unexpected content in /locales; public packs are constrained to curated files.
     for entry in (repo/"locales").rglob("*"):
         if entry.is_symlink():

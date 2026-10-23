@@ -21,6 +21,7 @@
 5. Enable private vulnerability reporting where available, and configure an authentic support contact through your official channels. `SECURITY.md` intentionally includes no unverified email.
 6. Once the repository is public, test all three Issue forms through **Issues → New issue** and confirm Actions permissions are **read-only** at workflow level. Review Actions settings for outside-contributor approval policies.
 7. Publish the read-only validation check first; never add private Tendo access tokens, signing credentials, or deploy workflows to this public repository.
+8. Translation PR validation deliberately rejects **all non-language-pack changes**, including documentation, tooling, licensing, baseline, and workflow files. For needed maintainer maintenance, use a separately reviewed owner-controlled process with a documented, temporary ruleset exception if necessary; restore protection immediately and never treat a bypass as successful validation. Run the relevant tests on the proposed maintenance changes before merging.
 
 ## Contribution and release decisions
 
