@@ -19,6 +19,42 @@
         }
       }
     },
+    "CFBundleName": {
+      "comment": "System-facing permission or app name. Use clear platform terminology.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tendo"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tendo"
+          }
+        }
+      }
+    },
+    "CFBundleSpokenName": {
+      "comment": "System-facing permission or app name. Use clear platform terminology.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ten dough"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tendo"
+          }
+        }
+      }
+    },
     "NSCalendarsFullAccessUsageDescription": {
       "comment": "Apple calendar-permission explanation. Preserve meaning about access and confirmation.",
       "extractionState": "manual",
@@ -51,6 +87,24 @@
           "stringUnit": {
             "state": "translated",
             "value": "TendoはAppleのリマインダーを使い、今日までに期限が来た項目を表示します。「今日」画面から完了にできます。"
+          }
+        }
+      }
+    },
+    "Tendo Encrypted Backup": {
+      "comment": "System-facing permission or app name. Use clear platform terminology.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tendo Encrypted Backup"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tendoの暗号化バックアップ"
           }
         }
       }

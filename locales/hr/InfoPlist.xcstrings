@@ -19,6 +19,42 @@
         }
       }
     },
+    "CFBundleName": {
+      "comment": "System-facing permission or app name. Use clear platform terminology.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tendo"
+          }
+        },
+        "hr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tendo"
+          }
+        }
+      }
+    },
+    "CFBundleSpokenName": {
+      "comment": "System-facing permission or app name. Use clear platform terminology.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ten dough"
+          }
+        },
+        "hr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tendo"
+          }
+        }
+      }
+    },
     "NSCalendarsFullAccessUsageDescription": {
       "comment": "Apple calendar-permission explanation. Preserve meaning about access and confirmation.",
       "extractionState": "manual",
@@ -51,6 +87,24 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tendo koristi Apple Podsjetnike za prikaz stavki s rokom danas ili ranije te vam omogućuje da ih označite dovršenima u prikazu Danas."
+          }
+        }
+      }
+    },
+    "Tendo Encrypted Backup": {
+      "comment": "System-facing permission or app name. Use clear platform terminology.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tendo Encrypted Backup"
+          }
+        },
+        "hr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Šifrirana sigurnosna kopija Tendo"
           }
         }
       }
