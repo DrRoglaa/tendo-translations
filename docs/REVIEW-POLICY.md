@@ -19,3 +19,13 @@ I want translations to sound like a person wrote them for Tendo — not like a d
 - A reviewed version is built/tested separately in Tendo before a shipping-language claim.
 
 Please don't self-report a locale as fully validated by editing this file or [TRANSLATION-STATUS.md](TRANSLATION-STATUS.md). I maintain those status fields independently of contributor catalog edits.
+
+## Review batches, evidence and invalidation
+
+The protected [`review/batches.json`](../review/batches.json) groups existing keys into 53 feature-oriented batches. Batch IDs are shared across languages; each language has its **own** review evidence under `review/languages/<locale>.json`.
+
+An independent human sign-off requires an actual competent-language review of meaning, grammar, contextual behavior, plural branches, placeholders, spoken accessibility wording, and relevant terminology. The maintainer verifies the contribution and its public GitHub Issue/PR evidence, records the agreed reviewer handle or public pseudonym **with consent**, the review date, and hashes for the exact English reference and approved target localization. No private emails or personal screenshots belong in review evidence.
+
+These ledgers are protected maintainer files. Contributors change only one language pack per PR and **must not** submit their own approval markers. Review evidence is not inferred from CI, a translated-state field, a green PR, or a claim of fluency alone. If the English source or target localization changes, the previous record is counted as **stale**, and a fresh independent review is required. The maintainer updates the protected record (prior evidence remains in Git history) and status documentation separately.
+
+Language-level approval and public release are separate decisions. Even 2,410/2,410 independent sign-offs would not replace String Studio/Xcode round-trip checks, accessibility, device testing, app release review, or explicit Tendo publication approval.

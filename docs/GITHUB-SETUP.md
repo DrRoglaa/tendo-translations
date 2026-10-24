@@ -1,6 +1,6 @@
 # Owner checklist — publishing only after separate approval
 
-**Nothing in this package creates a GitHub repository, makes an app change, or pushes commits.** Keep the private Tendo repository entirely separate. The ZIP already contains a new, independent local Git repository.
+**This file records the original repository setup and subsequent maintainer-update controls.** The public GitHub repository already exists; this task changes only an isolated local feature branch. It makes no app change, push, or deployment. Keep private Tendo entirely separate.
 
 ## Public repository metadata
 
@@ -28,3 +28,13 @@
 Review and merge translation PRs into the **public repository** only after technical/human review. A reviewed public PR does **not** change the private Tendo application. Use offline private-import dry-run against your latest authoritative app repository and seek the usual separate Tendo implementation, testing, Git, TestFlight and release approvals.
 
 See the **separate delivery handoff outside this public repository** for exact verified local ZIP extraction and initial remote-setup commands.
+
+## Subsequent AI-draft bulk export (maintainer-controlled)
+
+The complete AI-draft update is developed on a dedicated task branch and **does not get published automatically**. It changes all seven language packs and protected scripts, export hashes, batch manifests and documentation. The standard `validate-public-catalogs` workflow **intentionally rejects** such a multi-language PR, including when its author is the owner; this guard must never be weakened to make routine contributions easier.
+
+Before separately authorizing any push/PR/merge, verify the branch and public-content screening, run the offline tests, validate all 21 catalogs and the review ledger, and use the read-only `verify_maintainer_export.py --repo <owner-branch> --previous <clean-main>` check. An optional **owner-triggered** GitHub Actions `Owner-controlled AI export verification` workflow is limited to `DrRoglaa` and has read-only permissions. It runs only after the owner manually dispatches it on the reviewed owner-controlled branch. This extra workflow **does not bypass branch protection** or change the default PR validator.
+
+For the **first** bulk-update PR, GitHub cannot manually dispatch a newly added workflow before that workflow exists on the default branch. Perform the identical validation locally on the independently reviewed maintainer checkout and retain its logs. The optional owner-dispatched workflow is for **subsequent** updates, once this workflow is present on `main`. For the one-time maintainer PR, follow the repository's actual ruleset: obtain explicit permission for a **documented temporary maintainer exception** to the standard one-locale required check (if that check is mandatory), independently review the complete diff and read-only verification results, then restore protections immediately. Do not push to or merge into protected `main` until separate approval. If no safe exception is available, STOP and agree on a different rollout. Never use a fork-supplied script as the privileged maintainer export validator.
+
+The `review/languages/*.json` approvals are maintained **only after genuine independent sign-off** and verifiable public evidence. A successful bulk export does not grant any language review or app release status.

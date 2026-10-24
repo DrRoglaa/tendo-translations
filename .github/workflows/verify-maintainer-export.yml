@@ -1,0 +1,33 @@
+name: Owner-controlled AI export verification
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  owner-export-review:
+    # Manual only, originating from a branch in this repository, never from a fork PR.
+    if: github.repository == 'DrRoglaa/tendo-translations' && github.actor == 'DrRoglaa'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - name: Checkout manually selected owner branch
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          ref: ${{ github.sha }}
+          path: owner-branch
+          persist-credentials: false
+      - name: Checkout current protected main for comparison
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          ref: main
+          path: protected-main
+          persist-credentials: false
+      - name: Validate the owner-controlled export and retained translations
+        run: |
+          python3 owner-branch/tools/verify_maintainer_export.py \
+            --repo owner-branch --previous protected-main
+          python3 -m unittest discover -s owner-branch/tools -p 'test_*.py' -v
+          python3 owner-branch/tools/translation_status.py --check
