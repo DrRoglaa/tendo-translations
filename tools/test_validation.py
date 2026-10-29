@@ -58,6 +58,22 @@ class PublicCatalogTests(unittest.TestCase):
         c['strings'][key]['localizations']['sl']['stringSet']['values']=['Ustvari opravilo']
         self.path.write_text(json.dumps(c))
         self.assertTrue(any('Placeholder mismatch' in x for x in validate_catalog(self.path,'sl',BASE['catalogs']['AppShortcuts.xcstrings'],'AppShortcuts.xcstrings')))
+    def test_siri_alternative_count_cannot_change(self):
+        c=json.loads((ROOT/'locales/sl/AppShortcuts.xcstrings').read_text())
+        key='Create a task in ${applicationName}'
+        c['strings'][key]['localizations']['sl']['stringSet']['values'].append('Ustvari opravilo v ${applicationName}')
+        self.path.write_text(json.dumps(c,ensure_ascii=False))
+        self.assertTrue(any('alternative count' in x for x in validate_catalog(self.path,'sl',BASE['catalogs']['AppShortcuts.xcstrings'],'AppShortcuts.xcstrings')))
+    def test_siri_string_set_cannot_become_string_unit(self):
+        c=json.loads((ROOT/'locales/sl/AppShortcuts.xcstrings').read_text())
+        key='Create a task in ${applicationName}'
+        c['strings'][key]['localizations']['sl']={'stringUnit':{'state':'translated','value':'Ustvari opravilo v ${applicationName}'}}
+        self.path.write_text(json.dumps(c,ensure_ascii=False))
+        self.assertTrue(any('StringSet versus StringUnit' in x for x in validate_catalog(self.path,'sl',BASE['catalogs']['AppShortcuts.xcstrings'],'AppShortcuts.xcstrings')))
+    def test_newline_structure(self):
+        key=next(k for k,v in self.catalog['strings'].items() if '\n' in v['localizations']['en'].get('stringUnit',{}).get('value',''))
+        self.catalog['strings'][key]['localizations']['sl']['stringUnit']['value']=self.catalog['strings'][key]['localizations']['sl']['stringUnit']['value'].replace('\n',' ')
+        self.assertTrue(any('newline structure' in x for x in self.check()))
     def test_all_catalogs(self):
         errors,counts=validate(ROOT,ROOT/'docs/export-baseline.json')
         self.assertEqual(errors,[])

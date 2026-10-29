@@ -19,6 +19,42 @@
         }
       }
     },
+    "CFBundleName": {
+      "comment": "System-facing permission or app name. Use clear platform terminology.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tendo"
+          }
+        },
+        "hu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tendo"
+          }
+        }
+      }
+    },
+    "CFBundleSpokenName": {
+      "comment": "System-facing permission or app name. Use clear platform terminology.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ten dough"
+          }
+        },
+        "hu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tendo"
+          }
+        }
+      }
+    },
     "NSCalendarsFullAccessUsageDescription": {
       "comment": "Apple calendar-permission explanation. Preserve meaning about access and confirmation.",
       "extractionState": "manual",
@@ -51,6 +87,24 @@
           "stringUnit": {
             "state": "translated",
             "value": "A Tendo az Apple Emlékeztetőket használja a ma vagy korábban esedékes elemek megjelenítésére, amelyeket a Ma nézetben késznek is jelölhetsz."
+          }
+        }
+      }
+    },
+    "Tendo Encrypted Backup": {
+      "comment": "System-facing permission or app name. Use clear platform terminology.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tendo Encrypted Backup"
+          }
+        },
+        "hu": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Titkosított Tendo-biztonsági mentés"
           }
         }
       }

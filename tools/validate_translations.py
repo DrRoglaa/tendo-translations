@@ -122,6 +122,16 @@ def validate_catalog(path: Path, lang: str, baseline: dict, name: str) -> list[s
                 tr_branches = branches(loc[lang], lang, name)
                 if ("simple" in en_branches) != ("simple" in tr_branches):
                     raise ValueError("Plural versus simple structure changed")
+                if "simple" in en_branches:
+                    if ("stringSet" in loc["en"]) != ("stringSet" in loc[lang]):
+                        raise ValueError("StringSet versus StringUnit changed")
+                    if len(en_branches["simple"]) != len(tr_branches["simple"]):
+                        raise ValueError("Siri phrase/stringSet alternative count changed")
+                source_newline_counts = {text.count("\n") for values in en_branches.values() for text in values}
+                if len(source_newline_counts) == 1:
+                    required_newlines = next(iter(source_newline_counts))
+                    if any(text.count("\n") != required_newlines for values in tr_branches.values() for text in values):
+                        raise ValueError("Source newline structure changed")
                 ref_token_counts = {tuple(sorted(tokens(t).items())) for values in en_branches.values() for t in values}
                 if len(ref_token_counts) != 1:
                     raise ValueError("Source plural branches have inconsistent placeholder structure")

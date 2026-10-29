@@ -19,6 +19,42 @@
         }
       }
     },
+    "CFBundleName": {
+      "comment": "System-facing permission or app name. Use clear platform terminology.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tendo"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tendo"
+          }
+        }
+      }
+    },
+    "CFBundleSpokenName": {
+      "comment": "System-facing permission or app name. Use clear platform terminology.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ten dough"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tendo"
+          }
+        }
+      }
+    },
     "NSCalendarsFullAccessUsageDescription": {
       "comment": "Apple calendar-permission explanation. Preserve meaning about access and confirmation.",
       "extractionState": "manual",
@@ -51,6 +87,24 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tendo는 Apple 미리 알림에서 오늘까지 마감인 항목을 표시하고, 오늘 화면에서 완료로 표시할 수 있도록 합니다."
+          }
+        }
+      }
+    },
+    "Tendo Encrypted Backup": {
+      "comment": "System-facing permission or app name. Use clear platform terminology.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tendo Encrypted Backup"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tendo 암호화 백업"
           }
         }
       }

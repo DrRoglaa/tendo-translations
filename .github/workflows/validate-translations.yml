@@ -39,3 +39,6 @@ jobs:
             --repo submission \
             --baseline validation-base/docs/export-baseline.json \
             --base-tree validation-base
+
+      - name: Validate protected review batches and evidence
+        run: python3 validation-base/tools/review_tracking.py --repo submission
