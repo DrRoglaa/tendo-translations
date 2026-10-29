@@ -117,4 +117,41 @@ class PullRequestScopeTests(unittest.TestCase):
         self.assertTrue(self.scope())
 
 
+class PullRequestWorkflowSecurityTests(unittest.TestCase):
+    """Static checks for the trusted-validator/untrusted-catalogs CI boundary."""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.text = (ROOT / '.github/workflows/validate-translations.yml').read_text(encoding='utf-8')
+        cls.trusted_step = cls.text.split('- name: Checkout trusted base validator', 1)[1].split('- name: Checkout proposed changes', 1)[0]
+        cls.untrusted_step = cls.text.split('- name: Checkout proposed changes (data only)', 1)[1].split('- name: Test trusted validator', 1)[0]
+
+    def test_pull_request_event_is_unprivileged(self):
+        self.assertIn('  pull_request:', self.text)
+        self.assertNotIn('pull_request_target', self.text)
+        self.assertIn('permissions:\n  contents: read', self.text)
+
+    def test_trusted_checkout_is_pinned_to_base(self):
+        self.assertIn('ref: ${{ github.event.pull_request.base.sha || github.sha }}', self.trusted_step)
+        self.assertIn('path: validation-base', self.trusted_step)
+        self.assertIn('persist-credentials: false', self.trusted_step)
+
+    def test_fork_pr_uses_exact_head_in_its_repository(self):
+        self.assertIn('repository: ${{ github.event.pull_request.head.repo.full_name || github.repository }}', self.untrusted_step)
+        self.assertIn('ref: ${{ github.event.pull_request.head.sha || github.sha }}', self.untrusted_step)
+        self.assertNotIn('ref: ${{ github.ref }}', self.untrusted_step)
+        self.assertIn('path: submission', self.untrusted_step)
+        self.assertIn('persist-credentials: false', self.untrusted_step)
+
+    def test_untrusted_checkout_is_data_only(self):
+        self.assertNotIn('run: submission/', self.text)
+        self.assertNotIn('python3 submission/', self.text)
+        self.assertIn('python3 -m unittest discover -s validation-base/tools', self.text)
+        self.assertIn('python3 validation-base/tools/validate_translations.py', self.text)
+        self.assertIn('python3 validation-base/tools/review_tracking.py', self.text)
+        self.assertIn('--repo submission', self.text)
+        self.assertIn('--baseline validation-base/docs/export-baseline.json', self.text)
+        self.assertIn('--base-tree validation-base', self.text)
+
+
 if __name__=='__main__':unittest.main()
