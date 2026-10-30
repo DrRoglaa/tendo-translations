@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
-"""Generated GitHub review pages are complete, safe, deterministic and non-authoritative."""
+"""Generated GitHub topic pages are complete, safe, deterministic and non-authoritative."""
 import copy
 from pathlib import Path
+import re
 import tempfile
 import unittest
 
 from generate_proofreading_pages import (PAGE_ROOT, escape_cell, expected_paths,
-                                        render_pages, review_state, show_value,
-                                        verify_pages, write_pages)
+                                        legacy_batch_paths, render_pages, review_state,
+                                        show_value, topic_groups, verify_pages, write_pages)
 from validate_translations import load_json, sha
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -19,21 +20,47 @@ class ProofreadingPagesTests(unittest.TestCase):
         cls.pages = render_pages(ROOT)
         cls.batches = load_json(ROOT / 'review/batches.json')['batches']
         cls.languages = load_json(ROOT / 'docs/export-baseline.json')['locales']
+        cls.topics = topic_groups(cls.batches)
 
-    def test_every_language_and_batch_has_a_page(self):
+    def test_one_page_per_topic_per_language_with_no_numbered_files(self):
         self.assertEqual(set(self.pages), expected_paths(self.batches, self.languages))
-        self.assertEqual(len(self.pages), 7 * 53 + 7 + 1)
-        # Ordinary single-language PRs cannot regenerate these pages; only the
-        # maintainer gate enforces snapshot freshness on publication.
-
-    def test_catalog_keys_appear_exactly_once_in_each_languages_batch_pages(self):
+        self.assertEqual((len(self.topics), len(self.batches)), (32, 53))
+        self.assertEqual(len(self.pages), 7 * 32 + 7 + 1)
+        self.assertFalse(set(self.pages) & legacy_batch_paths(self.batches, self.languages))
         for language in self.languages:
-            for batch in self.batches:
-                page = self.pages[PAGE_ROOT / language / f"{batch['id']}.md"]
+            index = self.pages[PAGE_ROOT / language / 'README.md']
+            self.assertIn('**Topics:** 32', index)
+            self.assertIn('**Internal review batches:** 53', index)
+        # Ordinary single-language PRs cannot regenerate these pages;
+        # only the maintainer gate enforces snapshot freshness on publication.
+
+    def test_every_catalog_key_appears_once_per_language_and_topic(self):
+        for language in self.languages:
+            total_rows = 0
+            for slug, group in self.topics.items():
+                page = self.pages[PAGE_ROOT / language / f'{slug}.md']
                 rows = [line for line in page.splitlines() if line.startswith('| `')]
-                self.assertEqual(len(rows), len(batch['keys']))
-                for key in batch['keys']:
-                    self.assertIn(f'| `{escape_cell(key)}`<br>', page)
+                expected = [(batch['catalog'], key) for batch in group['batches']
+                            for key in batch['keys']]
+                self.assertEqual(len(rows), len(expected), slug)
+                self.assertEqual(len(set(expected)), len(expected), slug)
+                for batch in group['batches']:
+                    self.assertIn(f"`{batch['id']}`", page)
+                    for key in batch['keys']:
+                        self.assertEqual(page.count(f'| `{escape_cell(key)}`<br>'), 1,
+                                         (language, slug, key))
+                total_rows += len(rows)
+            self.assertEqual(total_rows, 2410, language)
+
+    def test_generated_internal_links_resolve(self):
+        for rel, page in self.pages.items():
+            for link in re.findall(r'(?<!\\)\]\(([^)]+)\)', page):
+                if link.startswith(('https://', 'http://', '#')):
+                    continue
+                target = (ROOT / rel.parent / link.split('#', 1)[0]).resolve()
+                self.assertTrue(target.is_relative_to(ROOT.resolve()), (rel, link))
+                self.assertTrue(target.exists() or
+                                target.relative_to(ROOT) in self.pages, (rel, link))
 
     def test_multiline_plural_and_shortcuts_are_visible(self):
         sl = self.pages[PAGE_ROOT / 'sl' / 'README.md']
@@ -42,12 +69,16 @@ class ProofreadingPagesTests(unittest.TestCase):
         main_pages = '\n'.join(text for path, text in self.pages.items()
                                if str(path).startswith('docs/proofreading/sl/')
                                and path.name != 'README.md')
-        self.assertIn('**one:**', main_pages)
-        self.assertIn('**two:**', main_pages)
-        self.assertIn('**few:**', main_pages)
-        self.assertIn('**other:**', main_pages)
-        self.assertIn('**Alternative 1:**', main_pages)
-        self.assertIn('${applicationName}', main_pages)
+        for marker in ('**one:**', '**two:**', '**few:**', '**other:**',
+                       '**Alternative 1:**', '${applicationName}'):
+            self.assertIn(marker, main_pages)
+
+    def test_topic_group_collisions_are_rejected(self):
+        with self.assertRaisesRegex(ValueError, 'Conflicting topic labels'):
+            topic_groups([{'id': 'focus-01', 'area': 'Focus'},
+                          {'id': 'focus-02', 'area': 'Not Focus'}])
+        with self.assertRaisesRegex(ValueError, 'Invalid review batch ID'):
+            topic_groups([{'id': 'focus', 'area': 'Focus'}])
 
     def test_markdown_and_html_are_escaped_without_mangling_source(self):
         raw = '<script>alert(1)</script> | [click](example) *text* `code`\nline 2'
@@ -78,14 +109,14 @@ class ProofreadingPagesTests(unittest.TestCase):
     def test_tamper_missing_and_extra_pages_are_rejected(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
-            path = PAGE_ROOT / 'sl' / 'focus-01.md'
-            extra = PAGE_ROOT / 'sl' / 'unauthorized.md'
+            path = PAGE_ROOT / 'sl' / 'focus.md'
+            extra = PAGE_ROOT / 'sl' / 'focus-01.md'
             (root / path).parent.mkdir(parents=True)
             (root / path).write_text(self.pages[path], encoding='utf-8')
             self.assertTrue(any('Missing generated file' in e for e in verify_pages(root, self.pages)))
             (root / path).write_text('misleading approval', encoding='utf-8')
             self.assertTrue(any('stale' in e for e in verify_pages(root, self.pages)))
-            (root / extra).write_text('unexpected', encoding='utf-8')
+            (root / extra).write_text('legacy batch must not reappear', encoding='utf-8')
             self.assertTrue(any('Unexpected generated file' in e for e in verify_pages(root, self.pages)))
             with self.assertRaises(ValueError):
                 write_pages(root, self.pages)
