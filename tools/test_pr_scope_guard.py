@@ -160,6 +160,58 @@ class GuardWorkflowSecurityTests(unittest.TestCase):
         self.assertIn("name: validate-public-catalogs", self.catalog)
         self.assertNotIn("name: trusted-pr-scope", self.catalog)
 
+    def test_catalog_workflow_keeps_unskipped_pr_check(self):
+        self.assertIn("  pull_request:\n    branches: [main]", self.catalog)
+        self.assertIn("  workflow_dispatch:", self.catalog)
+        self.assertIn("    name: validate-public-catalogs", self.catalog)
+        self.assertNotIn("  pull_request_target:", self.catalog)
+        self.assertNotIn("    paths:", self.catalog)
+        self.assertNotIn("\n    if:", self.catalog)  # No job-level conditional; required check always reports.
+
+    def test_catalog_workflow_is_read_only(self):
+        self.assertIn("permissions:\n  contents: read", self.catalog)
+        self.assertNotIn("contents: write", self.catalog)
+        self.assertIn("persist-credentials: false", self.catalog)
+        self.assertEqual(self.catalog.count("actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683"), 2)
+
+    def test_trusted_base_code_and_untrusted_data_are_separate(self):
+        self.assertIn("ref: ${{ github.event.pull_request.base.sha || github.sha }}", self.catalog)
+        self.assertIn("path: validation-base", self.catalog)
+        self.assertIn("repository: ${{ github.event.pull_request.head.repo.full_name || github.repository }}", self.catalog)
+        self.assertIn("ref: ${{ github.event.pull_request.head.sha || github.sha }}", self.catalog)
+        self.assertIn("path: submission", self.catalog)
+        self.assertIn("python3 validation-base/tools/pr_policy.py", self.catalog)
+        self.assertIn("--baseline validation-base/docs/export-baseline.json", self.catalog)
+        self.assertIn("--base-tree validation-base", self.catalog)
+        self.assertNotIn("python3 submission/", self.catalog)
+        self.assertNotIn("pip install", self.catalog)
+        self.assertNotIn("allow-unsafe-pr-checkout", self.catalog)
+
+    def test_pr_identity_comes_from_event_not_shell_interpolation(self):
+        section = self.catalog.split("      - name: Validate pull request with trusted policy\n", 1)[1]
+        section = section.split("      - name: ", 1)[0]
+        self.assertIn("if: github.event_name == 'pull_request'", section)
+        for env, context, argument in (
+            ("PR_AUTHOR", "user.login", "--pr-author"),
+            ("PR_ASSOCIATION", "author_association", "--pr-author-association"),
+            ("PR_HEAD_REPO", "head.repo.full_name", "--pr-head-repo"),
+            ("PR_BASE_REPO", "base.repo.full_name", "--pr-base-repo"),
+        ):
+            with self.subTest(env=env):
+                self.assertIn(f"{env}: ${{{{ github.event.pull_request.{context} }}}}", section)
+                self.assertIn(f'{argument} "${env}"', section)
+        command = section.split("        run: |", 1)[1]
+        self.assertNotIn("${{", command)
+        self.assertNotIn("submission/tools", command)
+
+    def test_manual_dispatch_does_not_claim_pr_policy_result(self):
+        self.assertIn("      - name: Validate catalogs on manual dispatch\n"
+                      "        if: github.event_name == 'workflow_dispatch'", self.catalog)
+        self.assertIn("      - name: Validate review evidence on manual dispatch\n"
+                      "        if: github.event_name == 'workflow_dispatch'", self.catalog)
+        self.assertIn("python3 validation-base/tools/validate_translations.py", self.catalog)
+        self.assertIn("python3 validation-base/tools/review_tracking.py", self.catalog)
+
 
 if __name__ == "__main__":
     unittest.main()
