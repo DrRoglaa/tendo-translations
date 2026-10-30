@@ -1,0 +1,63 @@
+# Korean · Tasks · tasks-02
+
+[All language batches](README.md) · [← Previous batch](tasks-01.md) · [Next batch →](tip-01.md)
+
+**Catalog:** `Localizable.xcstrings` · **Entries:** 49 · **Independently approved:** 0 · **Stale reviews:** 0
+
+**AI draft, not a published-language or human-approval claim.** Review every plural category and Siri alternative displayed below.
+Strings with multiple lines show a visible ↵ marker. This page is generated and must not be edited.
+To suggest a correction, [open a translation issue](https://github.com/DrRoglaa/tendo-translations/issues/new/choose) or change **only this language's** original [`Localizable.xcstrings`](../../../locales/ko/Localizable.xcstrings) in a Pull Request; include the batch ID and key.
+
+| Key and translator context | English source | AI-assisted draft | Human review |
+|---|---|---|---|
+| `tendoTasksNothingToCarryYet`<br>*Tasks interface text. Review meaning, tone, and on-screen context.* | Nothing to carry yet | 아직 가져갈 일이 없어요 | AI draft · unreviewed |
+| `tendoTasksNothingWaiting`<br>*Tasks interface. Keep terminology consistent.* | Nothing waiting | 대기 중인 항목 없음 | AI draft · unreviewed |
+| `tendoTasksNotificationsAreOffEnableThemInSystemSettingsOrTurn`<br>*Tasks interface text. Review meaning, tone, and on-screen context.* | Notifications are off. Enable them in System Settings, or turn off this reminder before saving. | 알림이 꺼져 있어요. 시스템 설정에서 켜거나 이 미리 알림을 끈 뒤 저장하세요. | AI draft · unreviewed |
+| `tendoTasksNotificationsAreOffEnableThemInSystemSettingsToUse`<br>*Tasks interface text. Review meaning, tone, and on-screen context.* | Notifications are off. Enable them in System Settings to use follow-up reminders. | 알림이 꺼져 있어요. 후속 미리 알림을 사용하려면 시스템 설정에서 켜세요. | AI draft · unreviewed |
+| `tendoTasksOneOfTheClearestOpeningsTendoFoundInTheNext`<br>*Tasks interface text. Review meaning, tone, and on-screen context.* | One of the clearest openings Tendo found in the next seven days. | 앞으로 7일 중 Tendo가 찾은 가장 여유로운 시간대 중 하나예요. | AI draft · unreviewed |
+| `tendoTasksOpenWindows`<br>*Tasks interface text. Review meaning, tone, and on-screen context.* | Open windows | 빈 시간대 | AI draft · unreviewed |
+| `tendoTasksPlentyOfRoom`<br>*Tasks interface text. Review meaning, tone, and on-screen context.* | Plenty of room | 충분한 여유 | AI draft · unreviewed |
+| `tendoTasksPutTheEasiestUsefulActionFirstTendoWillSurfaceOnly`<br>*Tasks interface text. Review meaning, tone, and on-screen context.* | Put the easiest useful action first. Tendo will surface only the next unfinished step elsewhere. | 가장 쉽고 유용한 행동을 맨 앞에 놓으세요. 다른 곳에는 다음 미완료 단계만 표시돼요. | AI draft · unreviewed |
+| `tendoTasksRemindMe`<br>*Tasks interface text. Review meaning, tone, and on-screen context.* | Remind me | 알려 주기 | AI draft · unreviewed |
+| `tendoTasksReminder`<br>*Tasks interface. Keep terminology consistent.* | Reminder | 미리 알림 | AI draft · unreviewed |
+| `tendoTasksRemoveCalendarBlock`<br>*Tasks interface text. Review meaning, tone, and on-screen context.* | Remove Calendar block | 캘린더 블록 제거 | AI draft · unreviewed |
+| `tendoTasksRemoveThisCalendarBlock`<br>*Tasks interface text. Review meaning, tone, and on-screen context.* | Remove this Calendar block? | 이 캘린더 블록을 제거할까요? | AI draft · unreviewed |
+| `tendoTasksReviewCalendarContext`<br>*Tasks interface text. Review meaning, tone, and on-screen context.* | Review Calendar Context | 캘린더 참고 확인 | AI draft · unreviewed |
+| `tendoTasksRightNowTendoIsUsingOnlyYourTendoScheduleConnect`<br>*Tasks interface text. Review meaning, tone, and on-screen context.* | Right now Tendo is using only your Tendo schedule. Connect Calendar Context if you want busy events considered too. | 현재 Tendo 일정만 사용하고 있어요. 바쁜 일정도 고려하려면 캘린더 참고를 연결하세요. | AI draft · unreviewed |
+| `tendoTasksSchedule`<br>*Tasks interface text. Review meaning, tone, and on-screen context.* | Schedule | 일정 | AI draft · unreviewed |
+| `tendoTasksSchedulemodeTitleIsAFlexibleWindowNotADeadline`<br>*Tasks interface text. Review meaning, tone, and on-screen context.* | \\(scheduleMode.title) is a flexible window, not a deadline. | \\(scheduleMode.title)은 유동적인 시간대이며 마감이 아니에요. | AI draft · unreviewed |
+| `tendoTasksTendoConsidersBusyTimeExactTendoTasksYourEstimateDue`<br>*Tasks interface text. Review meaning, tone, and on-screen context.* | Tendo considers busy time, exact Tendo tasks, your estimate, due date, energy, day load, and recent Focus history. | Tendo는 바쁜 시간, 정확한 시간의 Tendo 할 일, 예상 시간, 기한, 에너지, 하루 일정량, 최근 집중 기록을 고려해요. | AI draft · unreviewed |
+| `tendoTasksTendoLooksForAFewOpenWindowsAcrossTheNext`<br>*Tasks interface text. Review meaning, tone, and on-screen context.* | Tendo looks for a few open windows across the next three days. A Calendar event is created or moved only after you explicitly confirm one. | 앞으로 3일 동안 몇 가지 빈 시간대를 찾아요. 직접 확인한 뒤에만 캘린더 일정을 만들거나 옮겨요. | AI draft · unreviewed |
+| `tendoTasksTendoLooksForRoomThatAlreadyExistsItUsesYour`<br>*Tasks interface text. Review meaning, tone, and on-screen context.* | Tendo looks for room that already exists. It uses your Tendo plan and, if connected, Apple Calendar. Nothing is added to Apple Calendar. | Tendo는 이미 있는 여유를 찾아요. Tendo 계획과 연결된 경우 Apple 캘린더를 사용해요. Apple 캘린더에 추가되는 것은 없어요. | AI draft · unreviewed |
+| `tendoTasksTendoOnlyLooksAtYourSelectedCalendarsAfterYouChoose`<br>*Tasks interface text. Review meaning, tone, and on-screen context.* | Tendo only looks at your selected calendars after you choose to connect them. | 연결을 선택한 뒤에만 선택한 캘린더를 확인해요. | AI draft · unreviewed |
+| `tendoTasksTendoSuggestsThisFromTheTaskWordingOnDeviceNothing`<br>*Tasks interface text. Review meaning, tone, and on-screen context.* | Tendo suggests this from the task wording on-device. Nothing is added automatically. A follow-up reminder is scheduled only if you choose it. | 기기에서 할 일 문구를 바탕으로 제안해요. 자동 추가는 없어요. 후속 미리 알림은 직접 고를 때만 예약돼요. | AI draft · unreviewed |
+| `tendoTasksTendoSuggestsThisFromTheTaskWordingOnDeviceNothingVariant`<br>*Tasks interface text. Review meaning, tone, and on-screen context.* | Tendo suggests this from the task wording on-device. Nothing is added automatically. Mark this task done and Tendo can also offer a local follow-up reminder. | 기기에서 할 일 문구를 바탕으로 제안해요. 자동 추가는 없어요. 할 일을 완료하면 로컬 후속 미리 알림도 제안할 수 있어요. | AI draft · unreviewed |
+| `tendoTasksTendoSuggestsThisFromTheTaskWordingOnDeviceNothingVariant2`<br>*Tasks interface text. Review meaning, tone, and on-screen context.* | Tendo suggests this from the task wording on-device. Nothing is added or scheduled automatically. | 기기에서 할 일 문구를 바탕으로 제안해요. 자동으로 추가하거나 예약하지 않아요. | AI draft · unreviewed |
+| `tendoTasksTendoWillAskForNotificationPermissionOnlyWhenYouSave`<br>*Tasks interface text. Review meaning, tone, and on-screen context.* | Tendo will ask for notification permission only when you save a reminder for the first time. | 미리 알림을 처음 저장할 때만 알림 권한을 요청해요. | AI draft · unreviewed |
+| `tendoTasksThatOpeningChangedTendoRefreshedTheSuggestionsSoYouCan`<br>*Tasks interface text. Review meaning, tone, and on-screen context.* | That opening changed. Tendo refreshed the suggestions so you can choose again. | 빈 시간이 바뀌었어요. 추천을 새로 고쳤으니 다시 고를 수 있어요. | AI draft · unreviewed |
+| `tendoTasksThatPlacementCouldNotBeSaved`<br>*Tasks interface text. Review meaning, tone, and on-screen context.* | That placement could not be saved. %1$(error)@ | 배치를 저장하지 못했어요. %1$(error)@ | AI draft · unreviewed |
+| `tendoTasksTheAppleCalendarEventWillBeDeletedTheTendoTask`<br>*Tasks interface text. Review meaning, tone, and on-screen context.* | The Apple Calendar event will be deleted. The Tendo task itself stays available. | Apple 캘린더 일정이 삭제돼요. Tendo 할 일 자체는 그대로 남아요. | AI draft · unreviewed |
+| `tendoTasksTheChosenDurationBecomesThisTasksEstimateSoTheDay`<br>*Tasks interface text. Review meaning, tone, and on-screen context.* | The chosen duration becomes this task’s estimate so the Day Map matches the Calendar block. | 하루 지도와 캘린더 블록이 맞도록 선택한 시간을 이 할 일의 예상 시간으로 사용해요. | AI draft · unreviewed |
+| `tendoTasksTheSmallestUsefulAction`<br>*Tasks interface text. Review meaning, tone, and on-screen context.* | The smallest useful action | 가장 작고 유용한 행동 | AI draft · unreviewed |
+| `tendoTasksTheSuggestedTaskCouldntBeSaved`<br>*Tasks interface text. Review meaning, tone, and on-screen context.* | The suggested task couldn&#x27;t be saved. %1$(error)@ | 추천 할 일을 저장하지 못했어요. %1$(error)@ | AI draft · unreviewed |
+| `tendoTasksTheTaskCouldntBeSaved`<br>*Tasks interface text. Review meaning, tone, and on-screen context.* | The task couldn&#x27;t be saved. %1$(error)@ | 할 일을 저장하지 못했어요. %1$(error)@ | AI draft · unreviewed |
+| `tendoTasksThisGivesYouALittleBreathingRoomAfterYourRecent`<br>*Tasks interface text. Review meaning, tone, and on-screen context.* | This gives you a little breathing room after your recent Focus. | 최근 집중 후 숨 돌릴 여유를 조금 줘요. | AI draft · unreviewed |
+| `tendoTasksThisKeepsADueSoonTaskInViewWithoutOverlapping`<br>*Tasks interface text. Review meaning, tone, and on-screen context.* | This keeps a due-soon task in view without overlapping another fixed commitment. | 다른 고정 일정과 겹치지 않게 기한이 가까운 할 일을 눈에 보이게 둬요. | AI draft · unreviewed |
+| `tendoTasksThisOpeningLeavesSomeBreathingRoomBeforeOrAfterThe`<br>*Tasks interface text. Review meaning, tone, and on-screen context.* | This opening leaves some breathing room before or after the task. | 할 일 전후에 숨 돌릴 여유가 남는 시간대예요. | AI draft · unreviewed |
+| `tendoTasksThisRemovesTheCalendarEventCreatedForThisTaskAnd`<br>*Tasks interface text. Review meaning, tone, and on-screen context.* | This removes the Calendar event created for this task and removes its exact-time placement in Tendo. | 이 할 일을 위해 만든 캘린더 일정과 Tendo의 정확한 시간 배치를 제거해요. | AI draft · unreviewed |
+| `tendoTasksThisTaskAlreadyHasAnAppleCalendarBlockMoveOr`<br>*Tasks interface text. Review meaning, tone, and on-screen context.* | This task already has an Apple Calendar block. Move or remove that block here so Tendo and Calendar stay together. | 이 할 일에는 이미 Apple 캘린더 블록이 있어요. Tendo와 캘린더를 맞추려면 여기서 블록을 옮기거나 제거하세요. | AI draft · unreviewed |
+| `tendoTasksThisTaskAlreadyHasAnAppleCalendarBlockUseMove`<br>*Tasks interface text. Review meaning, tone, and on-screen context.* | This task already has an Apple Calendar block. Use Move Calendar block so Tendo and Calendar stay together. | 이 할 일에는 이미 Apple 캘린더 블록이 있어요. Tendo와 캘린더를 맞추려면 캘린더 블록 이동을 사용하세요. | AI draft · unreviewed |
+| `tendoTasksTimeNeeded`<br>*Tasks interface text. Review meaning, tone, and on-screen context.* | Time needed | 필요한 시간 | AI draft · unreviewed |
+| `tendoTasksTomorrow`<br>*Tasks interface. Keep terminology consistent.* | Tomorrow | 내일 | AI draft · unreviewed |
+| `tendoTasksTryAShorterDurationOrChooseAnyTimeTendoWill`<br>*Tasks interface text. Review meaning, tone, and on-screen context.* | Try a shorter duration or choose Any time. Tendo will not force a task into a crowded gap. | 시간을 줄이거나 아무 때나를 고르세요. Tendo는 붐비는 틈에 할 일을 억지로 넣지 않아요. | AI draft · unreviewed |
+| `tendoTasksTryAShorterDurationTendoCurrentlyLooksBetween800`<br>*Tasks interface text. Review meaning, tone, and on-screen context.* | Try a shorter duration. Tendo currently looks between 8:00 and 21:00 across the next three days. | 시간을 줄여 보세요. 현재 앞으로 3일간 8:00부터 21:00 사이를 찾아요. | AI draft · unreviewed |
+| `tendoTasksUseThisTime`<br>*Tasks interface text. Review meaning, tone, and on-screen context.* | Use this time | 이 시간 사용 | AI draft · unreviewed |
+| `tendoTasksUsingCalendarContext`<br>*Tasks interface text. Review meaning, tone, and on-screen context.* | Using Calendar Context | 캘린더 참고 사용 중 | AI draft · unreviewed |
+| `tendoTasksValue`<br>*Tasks interface text. Review meaning, tone, and on-screen context.* | %1$(text1)@ — %2$(text2)@ | %1$(text1)@ — %2$(text2)@ | AI draft · unreviewed |
+| `tendoTasksValueVariant`<br>*Tasks interface text. Review meaning, tone, and on-screen context.* | %1$(text1)@–%2$(text2)@ · %3$(text3)@ | %1$(text1)@–%2$(text2)@ · %3$(text3)@ | AI draft · unreviewed |
+| `tendoTasksWhatComesNext`<br>*Tasks interface text. Review meaning, tone, and on-screen context.* | What comes next? | 다음은 무엇인가요? | AI draft · unreviewed |
+| `tendoTasksWhatNeedsDoing`<br>*Tasks interface text. Review meaning, tone, and on-screen context.* | What needs doing? | 무엇을 해야 하나요? | AI draft · unreviewed |
+| `tendoTasksWhatNeedsRoom`<br>*Tasks interface text. Review meaning, tone, and on-screen context.* | What needs room | 자리가 필요한 일 | AI draft · unreviewed |
+| `tendoTasksWhenFeelsBest`<br>*Tasks interface text. Review meaning, tone, and on-screen context.* | When feels best | 가장 좋은 시간대 | AI draft · unreviewed |
+
+[All language batches](README.md) · [← Previous batch](tasks-01.md) · [Next batch →](tip-01.md)

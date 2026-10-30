@@ -28,6 +28,15 @@ class MaintainerExportTests(unittest.TestCase):
         path.write_text(json.dumps(catalog,ensure_ascii=False),encoding='utf-8')
         self.assertTrue(any('Original sl localization changed' in msg for msg in verify(self.repo,ROOT)))
 
+    def test_tampered_generated_page_is_blocked(self):
+        path=self.repo/'docs/proofreading/sl/focus-01.md'
+        path.write_text('False human-approval claim', encoding='utf-8')
+        self.assertTrue(any('Generated page is stale' in msg for msg in verify(self.repo,ROOT)))
+
+    def test_unexpected_generated_page_is_blocked(self):
+        (self.repo/'docs/proofreading/sl/secret.md').write_text('unapproved', encoding='utf-8')
+        self.assertTrue(any('Unexpected addition' in msg for msg in verify(self.repo,ROOT)))
+
     def test_new_private_swift_source_is_blocked(self):
         (self.repo/'TendoPrivate.swift').write_text('secret = "sample"')
         self.assertTrue(any('Unexpected addition' in msg for msg in verify(self.repo,ROOT)))

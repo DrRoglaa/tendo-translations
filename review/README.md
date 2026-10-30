@@ -4,9 +4,9 @@ Welcome! You can help improve Tendo with **one word, one batch, or one full lang
 
 ## Pick a language and a batch
 
-1. Pick a language folder under [`locales/`](../locales/) (`sl`, `de`, `hr`, `it`, `hu`, `ja`, `ko`).
-2. Choose a batch ID in [`batches.json`](batches.json). These are **key lists only**, not editable translations; the same 53 batches are available for each language. Start with `permissions-app-identity-01`, `accessibility-01`, `focus-01`, `siri-shortcuts-01`, or `notifications-01`.
-3. Find its keys in that language's three `.xcstrings` files and check the meaning and tone against the embedded English reference. For a batch with plural variations, review **every** grammatical branch.
+1. Pick a language in the [readable side-by-side proofreading pages](../docs/proofreading/README.md), or a folder under [`locales/`](../locales/) (`sl`, `de`, `hr`, `it`, `hu`, `ja`, `ko`).
+2. Open that language's batch page (or choose a batch ID in [`batches.json`](batches.json)). These are **key lists only**, not editable translations; the same 53 batches are available for each language. Start with `permissions-app-identity-01`, `accessibility-01`, `focus-01`, `siri-shortcuts-01`, or `notifications-01`.
+3. Read the English and target text side by side; check the meaning and tone, then verify any correction against the current `.xcstrings` file. For a batch with plural variations, review **every** grammatical branch.
 4. Propose improvements in an Issue or a PR changing **one language only**. Put the batch ID(s) in the description and say what context was checked. You can contribute without Git or Xcode.
 5. A maintainer validates the changes, obtains independent review, and **separately** records review evidence. No contributor should edit a review ledger or declare a language approved in the files.
 
@@ -16,7 +16,7 @@ On a local clone, list batches and current approval progress with:
 python3 tools/review_tracking.py --language sl
 ```
 
-Replace `sl` with your language. A batch can be split across several small PRs; review status is computed per key rather than by assuming every key in a batch was reviewed.
+Replace `sl` with your language. The generated Markdown pages are read-only, may lag recent merged changes, and are refreshed by the maintainer; never edit them in a translation PR. A batch can be split across several small PRs; review status is computed per key rather than by assuming every key in a batch was reviewed.
 
 ## What gets recorded?
 

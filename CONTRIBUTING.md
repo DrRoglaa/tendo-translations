@@ -9,12 +9,12 @@ No Git knowledge is necessary. Go to **Issues → New issue** and pick **Report 
 ## Pull Request workflow
 
 1. Read [TRANSLATING.md](TRANSLATING.md), the [glossary](docs/GLOSSARY.md) and the [review policy](docs/REVIEW-POLICY.md).
-2. Choose a [review batch](review/README.md) if helpful. Fork the repository, or make a branch from an up-to-date copy. Name it something understandable, like `improvement/sl-today-proofreading`.
+2. Choose a [readable language and review batch](docs/proofreading/README.md) if helpful. Fork the repository, or make a branch from an up-to-date copy. Name it something understandable, like `improvement/sl-today-proofreading`.
 3. Edit **only one language** under `locales/<language>/` per PR, leaving all keys, comments, English references, and files in other languages untouched.
 4. Run `python3 tools/validate_translations.py` and `python3 -m unittest discover -s tools -p 'test_*.py'` with Python 3.10 or newer.
 5. Open a PR with the batch ID(s), screen/context, what changed, and any uncertainty. The template will help. A PR does not confer human approval automatically.
 
-Please do **not** modify the protected export baseline, workflow files, or scripts as part of a translation PR. If you spot a validation bug, open a separate Issue; maintainer-reviewed tooling updates follow a different process. A PR can contain more than one catalog (`Localizable`, `InfoPlist`, `AppShortcuts`) **for the same language**.
+Please do **not** modify generated proofreading pages, review ledgers, the protected export baseline, workflow files, or scripts as part of a translation PR. Readable Markdown pages are maintainer-generated snapshots; verify text in current catalogs before correcting it. If you spot a validation bug, open a separate Issue; maintainer-reviewed tooling updates follow a different process. A PR can contain more than one catalog (`Localizable`, `InfoPlist`, `AppShortcuts`) **for the same language**.
 
 ### Editing with String Studio
 

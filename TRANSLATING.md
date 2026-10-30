@@ -4,7 +4,7 @@ You can help without Swift, Xcode, or Git. If you only want to fix one word, jus
 
 ## Choose a review batch
 
-The [review guide](review/README.md) lists where to begin. A batch ID (for example `focus-01`) refers to an allowlisted collection of existing keys, not a second editable copy of the translations. Choose one language and one or two batches per PR. To see the list offline, run `python3 tools/review_tracking.py --language sl` (replace `sl` with your locale).
+Start with the [readable proofreading pages](docs/proofreading/README.md) or the [review guide](review/README.md). A batch ID (for example `focus-01`) refers to an allowlisted collection of existing keys, not a second editable copy of the translations. Choose one language and one or two batches per PR. The pages are read-only snapshots: submit corrections via an Issue or by editing the current `.xcstrings` files, never the Markdown pages. To see the list offline, run `python3 tools/review_tracking.py --language sl` (replace `sl` with your locale).
 
 ## Get a language pack
 

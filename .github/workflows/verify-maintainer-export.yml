@@ -31,3 +31,4 @@ jobs:
             --repo owner-branch --previous protected-main
           python3 -m unittest discover -s owner-branch/tools -p 'test_*.py' -v
           python3 owner-branch/tools/translation_status.py --check
+          python3 owner-branch/tools/generate_proofreading_pages.py --check --repo owner-branch
