@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-24.04
     timeout-minutes: 10
     steps:
-      # Trusted validator source: checked out from the PR's target branch.
+      # All validation code runs from the trusted base commit, not the PR.
       - name: Checkout trusted base validator
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:
@@ -22,10 +22,8 @@ jobs:
           path: validation-base
           persist-credentials: false
 
-      # Treat this tree as untrusted data. Never execute its scripts or Git hooks.
-      # The PR merge ref can disappear when a PR closes or is merged.
-      # Checkout the immutable head SHA from its own repository (including forks).
-      # Workflow dispatch has no PR payload: use the selected repository commit.
+      # Inspect the PR head as data only. Do not import, execute or install from it.
+      # For manual runs, both checkouts refer to the selected repository commit.
       - name: Checkout proposed changes (data only)
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:
@@ -37,12 +35,35 @@ jobs:
       - name: Test trusted validator
         run: python3 -m unittest discover -s validation-base/tools -p 'test_*.py' -v
 
-      - name: Check submitted catalogs against trusted base
+      # Read identity only from the GitHub-generated event, never from PR files.
+      # Pass all event values via environment variables to prevent shell injection.
+      - name: Validate pull request with trusted policy
+        if: github.event_name == 'pull_request'
+        env:
+          PR_AUTHOR: ${{ github.event.pull_request.user.login }}
+          PR_ASSOCIATION: ${{ github.event.pull_request.author_association }}
+          PR_HEAD_REPO: ${{ github.event.pull_request.head.repo.full_name }}
+          PR_BASE_REPO: ${{ github.event.pull_request.base.repo.full_name }}
+        run: |
+          python3 validation-base/tools/pr_policy.py \
+            --repo submission \
+            --base-tree validation-base \
+            --baseline validation-base/docs/export-baseline.json \
+            --pr-author "$PR_AUTHOR" \
+            --pr-author-association "$PR_ASSOCIATION" \
+            --pr-head-repo "$PR_HEAD_REPO" \
+            --pr-base-repo "$PR_BASE_REPO"
+
+      # Preserve the existing read-only manual catalog/review validation.
+      # Manual runs do not satisfy required PR checks or grant maintainer scope.
+      - name: Validate catalogs on manual dispatch
+        if: github.event_name == 'workflow_dispatch'
         run: |
           python3 validation-base/tools/validate_translations.py \
             --repo submission \
             --baseline validation-base/docs/export-baseline.json \
             --base-tree validation-base
 
-      - name: Validate protected review batches and evidence
+      - name: Validate review evidence on manual dispatch
+        if: github.event_name == 'workflow_dispatch'
         run: python3 validation-base/tools/review_tracking.py --repo submission

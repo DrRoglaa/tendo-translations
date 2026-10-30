@@ -21,7 +21,20 @@
 5. Enable private vulnerability reporting where available, and configure an authentic support contact through your official channels. `SECURITY.md` intentionally includes no unverified email.
 6. Once the repository is public, test all three Issue forms through **Issues → New issue** and confirm Actions permissions are **read-only** at workflow level. Review Actions settings for outside-contributor approval policies.
 7. Publish the read-only validation check first; never add private Tendo access tokens, signing credentials, or deploy workflows to this public repository.
-8. The ordinary translation PR validator rejects non-language changes. A staged rollout installs a trusted read-only PR policy and a **separate, immutable-base PR path guard** before switching the catalog workflow to that policy. The path guard runs on `pull_request_target` but checks only GitHub API metadata: it never checks out, imports or executes fork code, and has only read permissions. Once enabled and tested, both `validate-public-catalogs` and `trusted-pr-scope` are required. Community PRs remain restricted to one language; only authenticated owner PRs from the same repository receive a bounded maintainer path allowlist. Catalogs, export baseline, review batch definitions and source-provenance protections remain unchanged. Any bootstrap maintainer exception must be documented, separately approved and verified manually; never call a red check green.
+8. The ordinary PR validator uses the trusted read-only PR policy to accept a single-language
+   catalog submission or a bounded owner-authored maintainer PR. The **separate, immutable-base
+   PR path guard** prevents contributor workflow tampering. The guard runs on `pull_request_target`
+   but only inspects GitHub API metadata: it never checks out, imports or executes fork code, and
+   has only read permissions. After both checks pass on real PRs, require `validate-public-catalogs`
+   and `trusted-pr-scope` from GitHub Actions; a manually dispatched run cannot substitute for
+   either required PR check. **Before** making `trusted-pr-scope` required, inspect the repository's
+   Actions event policy and verify that `pull_request_target` remains permitted: GitHub announced
+   a default block for this event in public repositories effective December 2, 2026. If the event
+   is blocked, approve a safe alternative before enabling protection. Community PRs stay restricted
+   to one language; only authenticated owner PRs from the same repository receive a bounded
+   maintainer allowlist. Catalogs, export baseline, review batch definitions and source-provenance
+   protections remain unchanged. Any bootstrap maintainer exception must be documented,
+   separately approved and verified manually; never call a red check green.
 
 ## Contribution and release decisions
 
