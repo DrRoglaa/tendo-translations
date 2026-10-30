@@ -13,6 +13,7 @@ I want Tendo to feel natural in more languages. An automatic translation can get
 | I want to… | Start here |
 |---|---|
 | Fix one awkward sentence | [Report a translation problem](.github/ISSUE_TEMPLATE/report-translation.yml) (then go to **Issues → New issue** to submit it) |
+| Browse English and translated drafts side by side | [Readable proofreading pages](docs/proofreading/README.md) — choose a language and batch |
 | Help translate or proofread | [Offer translation help](.github/ISSUE_TEMPLATE/offer-help.yml) or read [Translating](TRANSLATING.md) |
 | Request another language | [Request a new language](.github/ISSUE_TEMPLATE/request-language.yml) |
 | Edit `.xcstrings` in Git | Read [Contributing](CONTRIBUTING.md) and open a Pull Request |
@@ -25,17 +26,17 @@ English remains Tendo's source/fallback language. The seven additional languages
 
 | Language | Main UI draft | Permission/app-name draft | App Shortcuts draft | Human approved | Released |
 |---|---:|---:|---:|---:|---|
-| Slovenian (`sl`) | 2,387/2,387 | 6/6 | 17/17 | 0/2,410 | Not verified |
-| German (`de`) | 2,387/2,387 | 6/6 | 17/17 | 0/2,410 | Not verified |
-| Croatian (`hr`) | 2,387/2,387 | 6/6 | 17/17 | 0/2,410 | Not verified |
-| Italian (`it`) | 2,387/2,387 | 6/6 | 17/17 | 0/2,410 | Not verified |
-| Hungarian (`hu`) | 2,387/2,387 | 6/6 | 17/17 | 0/2,410 | Not verified |
-| Japanese (`ja`) | 2,387/2,387 | 6/6 | 17/17 | 0/2,410 | Not verified |
-| Korean (`ko`) | 2,387/2,387 | 6/6 | 17/17 | 0/2,410 | Not verified |
+| [Slovenian (`sl`)](docs/proofreading/sl/README.md) | 2,387/2,387 | 6/6 | 17/17 | 0/2,410 | Not verified |
+| [German (`de`)](docs/proofreading/de/README.md) | 2,387/2,387 | 6/6 | 17/17 | 0/2,410 | Not verified |
+| [Croatian (`hr`)](docs/proofreading/hr/README.md) | 2,387/2,387 | 6/6 | 17/17 | 0/2,410 | Not verified |
+| [Italian (`it`)](docs/proofreading/it/README.md) | 2,387/2,387 | 6/6 | 17/17 | 0/2,410 | Not verified |
+| [Hungarian (`hu`)](docs/proofreading/hu/README.md) | 2,387/2,387 | 6/6 | 17/17 | 0/2,410 | Not verified |
+| [Japanese (`ja`)](docs/proofreading/ja/README.md) | 2,387/2,387 | 6/6 | 17/17 | 0/2,410 | Not verified |
+| [Korean (`ko`)](docs/proofreading/ko/README.md) | 2,387/2,387 | 6/6 | 17/17 | 0/2,410 | Not verified |
 
 That's **16,870 AI draft entries**, across the three catalogs in seven language folders. The private source contains one technical placeholder entry excluded from the public main catalog. This snapshot also includes draft release-note wording; inclusion here does not announce or verify future app features.
 
-Review work is divided into **53 focused batches per language**, most up to 75 strings, beginning with permissions, spoken accessibility strings, Focus, Siri/App Shortcuts, and notifications. See [how to pick a batch](review/README.md), the [review policy](docs/REVIEW-POLICY.md), and the [live, validation-derived status](docs/TRANSLATION-STATUS.md).
+Review work is divided into **53 focused batches per language**, most up to 75 strings, beginning with permissions, spoken accessibility strings, Focus, Siri/App Shortcuts, and notifications. Browse the [readable side-by-side review pages](docs/proofreading/README.md), see [how to pick a batch](review/README.md), the [review policy](docs/REVIEW-POLICY.md), and the [live, validation-derived status](docs/TRANSLATION-STATUS.md).
 
 Existing public translation corrections were retained. The automated checks safeguard the files; **only independent human reviews with evidence and matching text hashes** increase the human-approved count. No independent sign-offs are recorded yet. App release support requires separate Apple-platform testing and release approval.
 

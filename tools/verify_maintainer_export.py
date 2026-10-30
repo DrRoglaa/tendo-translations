@@ -12,6 +12,7 @@ import re
 
 from validate_translations import CATALOGS, PLURALS, load_json, sha, validate
 from review_tracking import validate_review
+from generate_proofreading_pages import expected_paths, render_pages, verify_pages
 
 ALLOWED_ADDITIONS = {
     Path('.github/workflows/verify-maintainer-export.yml'),
@@ -25,6 +26,8 @@ ALLOWED_ADDITIONS = {
     Path('tools/test_maintainer_export.py'),
     Path('review/README.md'),
     Path('review/batches.json'),
+    Path('tools/generate_proofreading_pages.py'),
+    Path('tools/test_proofreading_pages.py'),
 }
 ALLOWED_ADDITIONS.update(Path('review/languages')/f'{lang}.json' for lang in PLURALS)
 LEAK_PATTERN = re.compile(r'(?:/Users/|/home/|Tendo/(?:Features|DesignSystem|Services|Models|Shared)/|\.swift(?::[0-9]+|\b)|\.pbxproj\b)',re.I)
@@ -39,11 +42,19 @@ def files(root: Path):
 def verify(repo: Path, previous: Path) -> list[str]:
     errors=[]
     original=files(previous); updated=files(repo)
+    # Only the exact deterministic page filenames are permitted, not arbitrary docs.
+    try:
+        stable_batches=load_json(previous/'review/batches.json')['batches']
+        stable_locales=load_json(previous/'docs/export-baseline.json')['locales']
+        allowed=ALLOWED_ADDITIONS | expected_paths(stable_batches,stable_locales)
+    except (OSError,ValueError,TypeError,KeyError) as exc:
+        errors.append(f'Invalid trusted review manifest: {exc}')
+        allowed=ALLOWED_ADDITIONS
     for rel in sorted(updated|original):
         dest=repo/rel; src=previous/rel
         if dest.is_symlink() or src.is_symlink():
             errors.append(f'Symlink forbidden: {rel}')
-        if rel not in original and rel not in ALLOWED_ADDITIONS:
+        if rel not in original and rel not in allowed:
             errors.append(f'Unexpected addition to public repository: {rel}')
         if rel in original and rel not in updated:
             errors.append(f'Unexpected file removal: {rel}')
@@ -77,6 +88,10 @@ def verify(repo: Path, previous: Path) -> list[str]:
     errors.extend(validation_errors)
     review_errors,_,_=validate_review(repo)
     errors.extend(review_errors)
+    try:
+        errors.extend(verify_pages(repo,render_pages(repo)))
+    except (OSError,ValueError,KeyError,TypeError) as exc:
+        errors.append(f"Invalid generated proofreading pages: {exc}")
     return errors
 
 
