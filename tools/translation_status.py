@@ -28,6 +28,7 @@ def report(root: Path) -> str:
            "", "| Language | Main UI AI draft | Info.plist AI draft | Siri AI draft | Human-approved | Stale reviews | Public release |",
            "|---|---:|---:|---:|---:|---:|---|"]
     total=sum(len(base['catalogs'][name]['keys']) for name in CATALOGS)
+    approved_count=sum(item["approved"] for item in review.values())
     for lang in base['locales']:
         c=[f"{counts[f'{lang}/{name}']}/{len(base['catalogs'][name]['keys'])}" for name in CATALOGS]
         lines.append(f"| {NAMES[lang]} (`{lang}`) | {c[0]} | {c[1]} | {c[2]} | {review[lang]['approved']}/{total} | {review[lang]['stale']} | Not verified |")
@@ -35,7 +36,9 @@ def report(root: Path) -> str:
               "",f"Review work is organized into **{len(batches)} functional batches per language** (up to 75 keys each).",
               "Independent sign-offs are recorded only by a maintainer in `review/languages/<locale>.json` with public evidence and exact source/translation hashes.",
               "A changed English source or reviewed target automatically invalidates a sign-off until it is checked again.",
-              "", "There are currently **no independently documented human approvals**. Existing owner corrections are retained but do not constitute a complete language review.",
+              "", ("There are currently **no independently documented human approvals**. Existing owner corrections are retained but do not constitute a complete language review."
+                   if not approved_count else
+                   f"There are currently **{approved_count:,} independently documented human approval{'s' if approved_count != 1 else ''}**. Each approval requires separately verified public evidence and can become stale."),
               "The private source is a development snapshot; these draft keys, including release-note text, do not establish public Tendo feature or language availability.",
               "String Studio/Xcode round trips, device layouts, accessibility, spoken strings and app release checks still require separate Mac validation.",
               "", "See [review batches](../review/README.md), [review policy](REVIEW-POLICY.md), and [source provenance](SOURCE-PROVENANCE.md).", ""]

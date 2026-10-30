@@ -16,6 +16,7 @@ from generate_proofreading_pages import expected_paths, legacy_batch_paths, rend
 
 ALLOWED_ADDITIONS = {
     Path('.github/workflows/verify-maintainer-export.yml'),
+    Path('.github/workflows/trusted-pr-scope-guard.yml'),
     Path('tools/export_ai_drafts.py'),
     Path('tools/check_editor_roundtrip.py'),
     Path('tools/test_editor_roundtrip.py'),
@@ -28,6 +29,10 @@ ALLOWED_ADDITIONS = {
     Path('review/batches.json'),
     Path('tools/generate_proofreading_pages.py'),
     Path('tools/test_proofreading_pages.py'),
+    Path('tools/pr_policy.py'),
+    Path('tools/test_pr_policy.py'),
+    Path('tools/pr_scope_guard.py'),
+    Path('tools/test_pr_scope_guard.py'),
 }
 ALLOWED_ADDITIONS.update(Path('review/languages')/f'{lang}.json' for lang in PLURALS)
 LEAK_PATTERN = re.compile(r'(?:/Users/|/home/|Tendo/(?:Features|DesignSystem|Services|Models|Shared)/|\.swift(?::[0-9]+|\b)|\.pbxproj\b)',re.I)

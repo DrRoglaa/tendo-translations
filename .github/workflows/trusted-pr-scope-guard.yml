@@ -1,0 +1,33 @@
+name: Trusted PR scope guard
+
+# This workflow is loaded from main, never from a contributor's PR merge tree.
+# It uses the GitHub API for changed-file metadata; no fork code is checked out.
+on:
+  pull_request_target:
+    branches: [main]
+    types: [opened, reopened, synchronize, edited, ready_for_review]
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  trusted-pr-scope:
+    name: trusted-pr-scope
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Checkout trusted base policy only
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+          path: trusted-base
+          persist-credentials: false
+
+      # This step runs no submitted code or dependencies and uses no secrets.
+      # The built-in GITHUB_TOKEN is limited to read-only API privileges above.
+      - name: Inspect changed paths using GitHub API
+        env:
+          GITHUB_EVENT_PATH: ${{ github.event_path }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 trusted-base/tools/pr_scope_guard.py
