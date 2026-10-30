@@ -61,79 +61,121 @@ def source_data(root: Path):
     return baseline, counts, statuses, batches, records
 
 
+def topic_groups(batches: list[dict]) -> dict[str, dict]:
+    """Group existing review batches by their stable topic ID without altering them."""
+    topics: dict[str, dict] = {}
+    for batch in batches:
+        slug, separator, number = batch["id"].rpartition("-")
+        if not separator or not slug or not number.isascii() or not number.isdecimal():
+            raise ValueError(f"Invalid review batch ID: {batch['id']}")
+        if slug not in topics:
+            topics[slug] = {"area": batch["area"], "batches": []}
+        elif topics[slug]["area"] != batch["area"]:
+            raise ValueError(f"Conflicting topic labels for {slug}")
+        topics[slug]["batches"].append(batch)
+    if not topics:
+        raise ValueError("No review topics in manifest")
+    return topics
+
+
 def expected_paths(batches: list[dict], languages: list[str]) -> set[Path]:
+    """Only one public Markdown page per topic, per language, plus indexes."""
     output = {PAGE_ROOT / "README.md"}
     for locale in languages:
         output.add(PAGE_ROOT / locale / "README.md")
-        for batch in batches:
-            output.add(PAGE_ROOT / locale / f"{batch['id']}.md")
+        for slug in topic_groups(batches):
+            output.add(PAGE_ROOT / locale / f"{slug}.md")
     return output
+
+
+def legacy_batch_paths(batches: list[dict], languages: list[str]) -> set[Path]:
+    """Exact former filenames, solely for approving their removal in a migration."""
+    return {PAGE_ROOT / locale / f"{batch['id']}.md"
+            for locale in languages for batch in batches}
 
 
 def render_pages(root: Path) -> dict[Path, str]:
     base, counts, statuses, batches, records = source_data(root)
     languages = base["locales"]
+    topics = topic_groups(batches)
+    topic_items = list(topics.items())
     total = sum(len(base["catalogs"][catalog]["keys"]) for catalog in CATALOGS)
     all_pages: dict[Path, str] = {}
     landing = ["# Browse Tendo translations", "",
-               "Choose a language to review the **English source beside its AI-assisted draft**.",
+               "Choose a language, then a **topic** to review the English source beside its AI-assisted draft.",
                "These pages are generated from the public String Catalogs; they are **read-only snapshots**, not separate editable translations.",
                "A translation can be technically present without independent human approval or inclusion in a released app.",
-               "", "| Language | AI drafts present | Independently approved | Review batches |",
-               "|---|---:|---:|---:|"]
+               "", "| Language | AI drafts present | Independently approved | Topics | Internal review batches |",
+               "|---|---:|---:|---:|---:|"]
     for locale in languages:
         catalog_data = {name: load_json(root / "locales" / locale / name)["strings"]
                         for name in CATALOGS}
-        batch_pages = []
-        for batch_number, batch in enumerate(batches):
-            name, batch_id = batch["catalog"], batch["id"]
-            reviewed, stale = 0, 0
+        topic_index_rows = []
+        for topic_number, (slug, group) in enumerate(topic_items):
+            topic_batches = group["batches"]
+            catalogs = list(dict.fromkeys(batch["catalog"] for batch in topic_batches))
             rows = []
-            for key in batch["keys"]:
-                entry = catalog_data[name][key]
-                localizations = entry["localizations"]
-                record = records[locale].get((name, key))
-                state = review_state(record, base["catalogs"][name]["english"][key], localizations[locale])
-                reviewed += state.startswith("[Human-approved]")
-                stale += state.startswith("Needs human re-review")
-                context = escape_cell(entry.get("comment", ""))
-                key_label = escape_cell(key)
-                rows.append(f"| `{key_label}`<br>*{context}* | "
-                            f"{show_value(localizations['en'])} | {show_value(localizations[locale])} | {state} |")
-            prev_link = (f"[\u2190 Previous batch]({batches[batch_number-1]['id']}.md)" if batch_number else "")
-            next_link = (f"[Next batch \u2192]({batches[batch_number+1]['id']}.md)" if batch_number + 1 < len(batches) else "")
-            navigation = " · ".join(x for x in ["[All language batches](README.md)", prev_link, next_link] if x)
-            body = [f"# {NAMES[locale]} · {batch['area']} · {batch_id}", "",
+            reviewed, stale = 0, 0
+            for batch in topic_batches:
+                name = batch["catalog"]
+                for key in batch["keys"]:
+                    entry = catalog_data[name][key]
+                    localizations = entry["localizations"]
+                    record = records[locale].get((name, key))
+                    state = review_state(record, base["catalogs"][name]["english"][key],
+                                         localizations[locale])
+                    reviewed += state.startswith("[Human-approved]")
+                    stale += state.startswith("Needs human re-review")
+                    context = escape_cell(entry.get("comment", ""))
+                    key_label = escape_cell(key)
+                    # Future topics may span catalogs; make their keys unambiguous.
+                    catalog_label = f"<br>`{name}`" if len(catalogs) > 1 else ""
+                    rows.append(f"| `{key_label}`<br>*{context}*{catalog_label} | "
+                                f"{show_value(localizations['en'])} | "
+                                f"{show_value(localizations[locale])} | {state} |")
+            prev_link = (f"[\u2190 Previous topic]({topic_items[topic_number-1][0]}.md)"
+                         if topic_number else "")
+            next_link = (f"[Next topic \u2192]({topic_items[topic_number+1][0]}.md)"
+                         if topic_number + 1 < len(topic_items) else "")
+            navigation = " · ".join(x for x in ["[All topics](README.md)", prev_link, next_link] if x)
+            catalog_links = ", ".join(f"[`{name}`](../../../locales/{locale}/{name})" for name in catalogs)
+            batch_labels = ", ".join(f"`{batch['id']}`" for batch in topic_batches)
+            body = [f"# {NAMES[locale]} · {group['area']}", "",
                     navigation, "",
-                    f"**Catalog:** `{name}` · **Entries:** {len(batch['keys'])} · "
-                    f"**Independently approved:** {reviewed} · **Stale reviews:** {stale}", "",
+                    f"**Source catalog(s):** {catalog_links} · **Entries:** {len(rows)} · "
+                    f"**Independently approved:** {reviewed} · **Stale reviews:** {stale}",
+                    f"**Internal review batch IDs (for PR references):** {batch_labels}", "",
                     "**AI draft, not a published-language or human-approval claim.** Review every plural category and Siri alternative displayed below.",
                     "Strings with multiple lines show a visible \u21b5 marker. This page is generated and must not be edited.",
-                    f"To suggest a correction, [open a translation issue]({ISSUE_URL}) or change **only this language's** original " +
-                    f"[`{name}`](../../../locales/{locale}/{name}) in a Pull Request; include the batch ID and key.",
+                    f"To suggest a correction, [open a translation issue]({ISSUE_URL}) or change "
+                    f"**only this language's** original String Catalog linked above in a Pull Request; "
+                    "include the relevant batch ID and key.",
                     "", "| Key and translator context | English source | AI-assisted draft | Human review |",
                     "|---|---|---|---|", *rows, "", navigation, ""]
-            all_pages[PAGE_ROOT / locale / f"{batch_id}.md"] = "\n".join(body)
-            batch_pages.append(f"| [{batch_id}]({batch_id}.md) | {escape_cell(batch['area'])} | "
-                               f"`{name}` | {len(batch['keys'])} | {reviewed} | {stale} |")
+            all_pages[PAGE_ROOT / locale / f"{slug}.md"] = "\n".join(body)
+            topic_index_rows.append(f"| [{escape_cell(group['area'])}]({slug}.md) | "
+                                    f"{', '.join(f'`{name}`' for name in catalogs)} | "
+                                    f"{len(rows)} | {len(topic_batches)} | {reviewed} | {stale} |")
         index = [f"# {NAMES[locale]} proofreading (`{locale}`)", "",
                  "[\u2190 All languages](../README.md) · [How to contribute](../../../CONTRIBUTING.md)", "",
                  f"**AI drafts:** {sum(counts[f'{locale}/{name}'] for name in CATALOGS):,}/{total:,} · "
                  f"**Human-approved:** {statuses[locale]['approved']}/{total:,} · "
-                 f"**Stale reviews:** {statuses[locale]['stale']} · **Batches:** {len(batches)}", "",
-                 "The pages below show public English source text, the target-language draft, sanitized translator comments and review status.",
-                 "Choose a batch; corrections belong in the **original String Catalog**, not these generated pages.",
-                 "A maintainer refreshes these pages after catalog/review changes, so always compare against the current catalog before submitting.",
-                 "", "| Batch | Area | Source catalog | Keys | Human-approved | Stale |",
-                 "|---|---|---|---:|---:|---:|", *batch_pages, ""]
+                 f"**Stale reviews:** {statuses[locale]['stale']} · **Topics:** {len(topics)} · "
+                 f"**Internal review batches:** {len(batches)}", "",
+                 "Each topic contains **all** its strings in a single page, including English, the target-language draft and review status.",
+                 "Batch IDs remain available inside topic pages for scoped Issues, PRs and review evidence; they are not separate files.",
+                 "Edit the original String Catalog, **not** these generated pages. A maintainer refreshes these pages after catalog/review changes.",
+                 "", "| Topic | Source catalog(s) | Entries | Review batches | Human-approved | Stale |",
+                 "|---|---|---:|---:|---:|---:|", *topic_index_rows, ""]
         all_pages[PAGE_ROOT / locale / "README.md"] = "\n".join(index)
         landing.append(f"| [{NAMES[locale]} (`{locale}`)]({locale}/README.md) | "
                        f"{sum(counts[f'{locale}/{name}'] for name in CATALOGS):,}/{total:,} | "
-                       f"{statuses[locale]['approved']}/{total:,} | {len(batches)} |")
+                       f"{statuses[locale]['approved']}/{total:,} | {len(topics)} | {len(batches)} |")
     landing.extend(["", "The \"translated\" state in Xcode means a technical draft exists; it is **not** a human sign-off.",
                     "Even a reviewed catalog does not establish Tendo's public app language availability.",
-                    "", "**How to help:** Pick a language and batch, then [report an issue](" + ISSUE_URL + ") or "
+                    "", "**How to help:** Pick a language and topic, then [report an issue](" + ISSUE_URL + ") or "
                     "[contribute a single-language correction](../../CONTRIBUTING.md).",
+                    "Review batches are internal key groups for tracking approvals; they do not require separate Markdown files.",
                     "", "**Source of truth:** [`locales/`](../../locales/) and the protected "
                     "[review evidence](../../review/README.md). These generated pages may lag recently merged corrections until refreshed by a maintainer.",
                     "", "[Translation status](../TRANSLATION-STATUS.md) · [Glossary](../GLOSSARY.md) · "

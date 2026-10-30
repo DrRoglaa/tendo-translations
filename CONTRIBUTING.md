@@ -9,7 +9,7 @@ No Git knowledge is necessary. Go to **Issues → New issue** and pick **Report 
 ## Pull Request workflow
 
 1. Read [TRANSLATING.md](TRANSLATING.md), the [glossary](docs/GLOSSARY.md) and the [review policy](docs/REVIEW-POLICY.md).
-2. Choose a [readable language and review batch](docs/proofreading/README.md) if helpful. Fork the repository, or make a branch from an up-to-date copy. Name it something understandable, like `improvement/sl-today-proofreading`.
+2. Choose a [readable language and topic](docs/proofreading/README.md) if helpful. Fork the repository, or make a branch from an up-to-date copy. Name it something understandable, like `improvement/sl-today-proofreading`.
 3. Edit **only one language** under `locales/<language>/` per PR, leaving all keys, comments, English references, and files in other languages untouched.
 4. Run `python3 tools/validate_translations.py` and `python3 -m unittest discover -s tools -p 'test_*.py'` with Python 3.10 or newer.
 5. Open a PR with the batch ID(s), screen/context, what changed, and any uncertainty. The template will help. A PR does not confer human approval automatically.

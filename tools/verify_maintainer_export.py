@@ -12,7 +12,7 @@ import re
 
 from validate_translations import CATALOGS, PLURALS, load_json, sha, validate
 from review_tracking import validate_review
-from generate_proofreading_pages import expected_paths, render_pages, verify_pages
+from generate_proofreading_pages import expected_paths, legacy_batch_paths, render_pages, verify_pages
 
 ALLOWED_ADDITIONS = {
     Path('.github/workflows/verify-maintainer-export.yml'),
@@ -42,21 +42,25 @@ def files(root: Path):
 def verify(repo: Path, previous: Path) -> list[str]:
     errors=[]
     original=files(previous); updated=files(repo)
-    # Only the exact deterministic page filenames are permitted, not arbitrary docs.
+    # Only deterministic topic additions and retired generated batch filenames are permitted.
     try:
         stable_batches=load_json(previous/'review/batches.json')['batches']
         stable_locales=load_json(previous/'docs/export-baseline.json')['locales']
-        allowed=ALLOWED_ADDITIONS | expected_paths(stable_batches,stable_locales)
+        topic_pages=expected_paths(stable_batches,stable_locales)
+        allowed=ALLOWED_ADDITIONS | topic_pages
+        # One-time layout migration; NEVER allow unrelated files to be removed.
+        allowed_removals=legacy_batch_paths(stable_batches,stable_locales) - topic_pages
     except (OSError,ValueError,TypeError,KeyError) as exc:
         errors.append(f'Invalid trusted review manifest: {exc}')
         allowed=ALLOWED_ADDITIONS
+        allowed_removals=set()
     for rel in sorted(updated|original):
         dest=repo/rel; src=previous/rel
         if dest.is_symlink() or src.is_symlink():
             errors.append(f'Symlink forbidden: {rel}')
         if rel not in original and rel not in allowed:
             errors.append(f'Unexpected addition to public repository: {rel}')
-        if rel in original and rel not in updated:
+        if rel in original and rel not in updated and rel not in allowed_removals:
             errors.append(f'Unexpected file removal: {rel}')
         if any(piece.endswith(('.swift','.xcodeproj','.xcworkspace','.tendobackup')) for piece in rel.parts):
             errors.append(f'Private application artefact forbidden: {rel}')

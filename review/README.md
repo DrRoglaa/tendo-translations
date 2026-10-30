@@ -2,10 +2,10 @@
 
 Welcome! You can help improve Tendo with **one word, one batch, or one full language**. All 2,410 strings per additional language are **AI-assisted drafts** awaiting independent human review; Xcode's `translated` state does not indicate approval.
 
-## Pick a language and a batch
+## Pick a language and a topic
 
 1. Pick a language in the [readable side-by-side proofreading pages](../docs/proofreading/README.md), or a folder under [`locales/`](../locales/) (`sl`, `de`, `hr`, `it`, `hu`, `ja`, `ko`).
-2. Open that language's batch page (or choose a batch ID in [`batches.json`](batches.json)). These are **key lists only**, not editable translations; the same 53 batches are available for each language. Start with `permissions-app-identity-01`, `accessibility-01`, `focus-01`, `siri-shortcuts-01`, or `notifications-01`.
+2. Open that language's **topic page** (such as `focus.md`, `notifications.md` or `settings.md`). Each topic shows all its strings together. The same 53 internal review batches remain defined in [`batches.json`](batches.json), and their IDs are listed inside the relevant topic pages. These are **key lists only**, not editable translations.
 3. Read the English and target text side by side; check the meaning and tone, then verify any correction against the current `.xcstrings` file. For a batch with plural variations, review **every** grammatical branch.
 4. Propose improvements in an Issue or a PR changing **one language only**. Put the batch ID(s) in the description and say what context was checked. You can contribute without Git or Xcode.
 5. A maintainer validates the changes, obtains independent review, and **separately** records review evidence. No contributor should edit a review ledger or declare a language approved in the files.
