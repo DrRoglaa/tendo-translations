@@ -36,6 +36,17 @@
    protections remain unchanged. Any bootstrap maintainer exception must be documented,
    separately approved and verified manually; never call a red check green.
 
+## Verify required checks before enabling branch protection
+
+For a new PR targeting `main`, keep the PR **open** until both
+`validate-public-catalogs` and `trusted-pr-scope` finish successfully
+for the same latest PR head. Do not merge while either check is pending.
+The trusted guard deliberately rejects PRs that are already closed,
+so merging before that check completes can leave a red historical run,
+even when the changed paths were allowed. Recheck that both checks run
+automatically on the next PR, including an authorized maintainer-only
+documentation update, before configuring either check as required.
+
 ## Contribution and release decisions
 
 Review and merge translation PRs into the **public repository** only after technical/human review. A reviewed public PR does **not** change the private Tendo application. Use offline private-import dry-run against your latest authoritative app repository and seek the usual separate Tendo implementation, testing, Git, TestFlight and release approvals.
